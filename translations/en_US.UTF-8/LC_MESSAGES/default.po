@@ -13,23 +13,23 @@ msgstr ""
 "X-Crowdin-File-ID: 5\n"
 "Language-Team: English\n"
 "Language: en_US\n"
-"PO-Revision-Date: 2023-04-10 13:48\n"
+"PO-Revision-Date: 2023-04-10 14:27\n"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:283
 msgid "A completely random track is picked for playback every time the queue is populated."
-msgstr ""
+msgstr "A completely random track is picked for playback every time the queue is populated."
 
 #: ./vue/components/Stations/HlsStreams/Form/BasicInfo.vue:28
 msgid "A name for this stream that will be used internally in code. Should only contain letters, numbers, and underscores (i.e. \"stream_lofi\")."
-msgstr ""
+msgstr "A name for this stream that will be used internally in code. Should only contain letters, numbers, and underscores (i.e. \"stream_lofi\")."
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:93
 msgid "A playlist containing media files hosted on this server."
-msgstr ""
+msgstr "A playlist containing media files hosted on this server."
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:100
 msgid "A playlist that instructs the station to play from a remote URL."
-msgstr ""
+msgstr "A playlist that instructs the station to play from a remote URL."
 
 #: ./vue/components/Stations/Webhooks/Form/GoogleAnalyticsV4.vue:34
 msgid "A unique identifier (i.e. \"G-A1B2C3D4\") for this measurement stream."
