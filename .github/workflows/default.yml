@@ -120,8 +120,8 @@ jobs:
           config: crowdin.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          CROWDIN_PROJECT_ID: "580019"
+          CROWDIN_PERSONAL_TOKEN: "8ac01e5fffb76359bc776e8207b3e54646aad4ff5289b797e91d3fc6683ab66bb976a7103c775a2b"
 
       - name: Import locales, build static assets.
         run: |
