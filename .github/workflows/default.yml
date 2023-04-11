@@ -192,8 +192,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            azuracast/azuracast
-            ghcr.io/azuracast/azuracast
+            talex0909/azura-yespanel
+            ghcr.io/talex0909/azura-yespanel
           tags: |
             type=raw,value=latest,enable=${{ endsWith(github.ref, github.event.repository.default_branch) }}
             type=ref,event=branch
