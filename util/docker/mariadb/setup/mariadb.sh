@@ -4,7 +4,7 @@ set -x
 
 apt-get install apt-transport-https curl
 curl -o /etc/apt/trusted.gpg.d/mariadb_release_signing_key.asc 'https://mariadb.org/mariadb_release_signing_key.asc'
-echo 'deb https://mirrors.gigenet.com/mariadb/repo/10.9/ubuntu jammy main' >> /etc/apt/sources.list
+echo 'deb https://mirrors.gigenet.com/mariadb/repo/11.0.1/ubuntu jammy main' >> /etc/apt/sources.list
 
 apt-get update
 
