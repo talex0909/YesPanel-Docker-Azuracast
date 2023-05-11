@@ -13,7 +13,7 @@ msgstr ""
 "X-Crowdin-File-ID: 5\n"
 "Language-Team: English\n"
 "Language: en_US\n"
-"PO-Revision-Date: 2023-05-11 06:13\n"
+"PO-Revision-Date: 2023-05-11 06:17\n"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:283
 msgid "A completely random track is picked for playback every time the queue is populated."
@@ -60,7 +60,7 @@ msgstr ""
 msgid "Access Token Secret"
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:127
+#: ./vue/components/Dashboard.vue:125
 msgid "Account Details"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgid "Account List"
 msgstr ""
 
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:57
-#: /var/azuracast/www/templates/admin/debug/index.phtml:83
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:83
 msgid "Actions"
 msgstr ""
 
@@ -154,11 +154,11 @@ msgstr ""
 
 #: ./vue/components/Admin/Index.vue:72
 #: ./vue/components/Admin/Stations/StationForm.vue:143
-#: ./vue/components/Dashboard.vue:160
+#: ./vue/components/Dashboard.vue:158
 #: ./vue/components/Stations/Profile/FrontendPanel.vue:71
-#: /var/azuracast/www/src/Controller/Admin/IndexAction.php:30
-#: /var/azuracast/www/src/Notification/Check/ServiceCheck.php:42
-#: /var/azuracast/www/templates/admin/sidebar.phtml:11
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/IndexAction.php:30
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/ServiceCheck.php:42
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/sidebar.phtml:11
 msgid "Administration"
 msgstr ""
 
@@ -167,7 +167,7 @@ msgstr ""
 #: ./vue/components/Stations/Mounts/Form/Advanced.vue:15
 #: ./vue/components/Stations/Playlists/Form/Advanced.vue:13
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:243
-#: /var/azuracast/www/templates/partials/bodyjs.phtml:40
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/partials/bodyjs.phtml:40
 msgid "Advanced"
 msgstr ""
 
@@ -184,7 +184,7 @@ msgid "Aggregate listener statistics are used to show station reports across the
 msgstr ""
 
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:56
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:78
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:78
 msgid "Album"
 msgstr ""
 
@@ -256,8 +256,8 @@ msgstr ""
 
 #: ./vue/components/Account.vue:213
 #: ./vue/components/Admin/ApiKeys.vue:26
-#: /var/azuracast/www/src/Controller/Admin/ApiKeysAction.php:23
-#: /var/azuracast/www/config/menus/admin.php:76
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/ApiKeysAction.php:23
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:76
 msgid "API Keys"
 msgstr ""
 
@@ -284,7 +284,7 @@ msgstr ""
 #: ./vue/components/Public/WebDJ/SettingsPanel.vue:93
 #: ./vue/components/Stations/Playlists/QueueModal.vue:60
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:55
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:82
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:82
 msgid "Artist"
 msgstr ""
 
@@ -328,8 +328,8 @@ msgid "Audio transcoding applications like Liquidsoap use a consistent amount of
 msgstr ""
 
 #: ./vue/components/Admin/AuditLog.vue:38
-#: /var/azuracast/www/src/Controller/Admin/AuditLogAction.php:23
-#: /var/azuracast/www/config/menus/admin.php:71
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/AuditLogAction.php:23
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:71
 msgid "Audit Log"
 msgstr ""
 
@@ -396,7 +396,7 @@ msgstr ""
 msgid "Avatar Service"
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:254
+#: ./vue/components/Dashboard.vue:249
 msgid "Average Listeners"
 msgstr ""
 
@@ -437,8 +437,8 @@ msgid "AzuraCast will scan the uploaded file for matches in this station's music
 msgstr ""
 
 #: ./vue/components/Stations/Media/MoveFilesModal.vue:56
-#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:51
-#: /var/azuracast/www/templates/frontend/public/podcast-episode.phtml:60
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcast-episodes.phtml:51
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcast-episode.phtml:60
 msgid "Back"
 msgstr ""
 
@@ -456,9 +456,9 @@ msgstr ""
 
 #: ./vue/components/Admin/Backups.vue:73
 #: ./vue/components/Admin/Backups.vue:147
-#: /var/azuracast/www/src/Controller/Admin/BackupsAction.php:31
-#: /var/azuracast/www/src/Notification/Check/RecentBackupCheck.php:54
-#: /var/azuracast/www/config/menus/admin.php:40
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/BackupsAction.php:31
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/RecentBackupCheck.php:54
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:40
 msgid "Backups"
 msgstr ""
 
@@ -483,7 +483,7 @@ msgid "Base Theme for Public Pages"
 msgstr ""
 
 #: ./vue/components/Stations/HlsStreams/Form/BasicInfo.vue:12
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:13
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:17
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:44
 #: ./vue/components/Stations/Remotes/Form/BasicInfo.vue:13
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:14
@@ -501,7 +501,7 @@ msgstr ""
 msgid "Best & Worst"
 msgstr ""
 
-#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:57
+#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:55
 msgid "Best Performing Songs"
 msgstr ""
 
@@ -523,7 +523,7 @@ msgid "Broadcast AutoDJ to Remote Station"
 msgstr ""
 
 #: ./vue/components/Admin/Stations/StationForm.vue:64
-#: /var/azuracast/www/config/menus/station.php:210
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:210
 msgid "Broadcasting"
 msgstr ""
 
@@ -562,12 +562,12 @@ msgid "Cached"
 msgstr ""
 
 #: ./vue/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:111
-#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:63
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcasts.phtml:63
 msgid "Categories"
 msgstr ""
 
-#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:62
-#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:101
+#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:60
+#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:99
 msgid "Change"
 msgstr ""
 
@@ -653,8 +653,8 @@ msgid "Clear Pending Requests"
 msgstr ""
 
 #: ./vue/components/Stations/Playlists/QueueModal.vue:39
-#: /var/azuracast/www/templates/admin/debug/index.phtml:141
-#: /var/azuracast/www/templates/admin/debug/index.phtml:177
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:141
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:177
 msgid "Clear Queue"
 msgstr ""
 
@@ -767,7 +767,7 @@ msgid "Consumer Secret (API Secret)"
 msgstr ""
 
 #: ./vue/components/Stations/Podcasts/EpisodeForm/BasicInfo.vue:108
-#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:99
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcast-episodes.phtml:99
 msgid "Contains explicit content"
 msgstr ""
 
@@ -832,7 +832,7 @@ msgid "Create a new application. Choose \"Scoped Access\", select your preferred
 msgstr ""
 
 #: ./vue/components/Setup/Station.vue:23
-#: /var/azuracast/www/src/Controller/Frontend/SetupController.php:138
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/SetupController.php:138
 msgid "Create a New Radio Station"
 msgstr ""
 
@@ -905,14 +905,18 @@ msgstr ""
 msgid "Current Podcast Media"
 msgstr ""
 
+#: ./vue/components/Stations/Playlists.vue:295
+msgid "Custom"
+msgstr ""
+
 #: ./vue/components/Stations/Webhooks/Form/Telegram.vue:56
 msgid "Custom API Base URL"
 msgstr ""
 
 #: ./vue/components/Admin/Branding.vue:22
-#: /var/azuracast/www/src/Controller/Stations/BrandingAction.php:25
-#: /var/azuracast/www/src/Controller/Admin/BrandingAction.php:25
-#: /var/azuracast/www/config/menus/admin.php:25
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/BrandingAction.php:25
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/BrandingAction.php:25
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:25
 msgid "Custom Branding"
 msgstr ""
 
@@ -951,15 +955,15 @@ msgid "Custom Fading: Overlap Time (seconds)"
 msgstr ""
 
 #: ./vue/components/Stations/Fallback.vue:28
-#: /var/azuracast/www/src/Controller/Stations/FallbackAction.php:26
-#: /var/azuracast/www/config/menus/station.php:234
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/FallbackAction.php:26
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:234
 msgid "Custom Fallback File"
 msgstr ""
 
 #: ./vue/components/Admin/CustomFields.vue:28
 #: ./vue/components/Stations/Media/EditModal.vue:62
-#: /var/azuracast/www/src/Controller/Admin/CustomFieldsAction.php:24
-#: /var/azuracast/www/config/menus/admin.php:92
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/CustomFieldsAction.php:24
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:92
 msgid "Custom Fields"
 msgstr ""
 
@@ -1075,7 +1079,7 @@ msgstr ""
 #: ./vue/components/Stations/Podcasts/EpisodeForm/BasicInfo.vue:51
 #: ./vue/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:49
 #: ./vue/components/Stations/Webhooks/Form/Discord.vue:65
-#: /var/azuracast/www/templates/frontend/public/podcast-episode.phtml:122
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcast-episode.phtml:122
 msgid "Description"
 msgstr ""
 
@@ -1119,6 +1123,7 @@ msgstr ""
 
 #: ./vue/components/Stations/Mounts.vue:82
 #: ./vue/components/Stations/Playlists.vue:258
+#: ./vue/components/Stations/Playlists.vue:265
 #: ./vue/components/Stations/Remotes.vue:76
 #: ./vue/components/Stations/Streamers.vue:109
 #: ./vue/components/Stations/Webhooks.vue:70
@@ -1142,7 +1147,7 @@ msgid "Disk Space"
 msgstr ""
 
 #: ./vue/components/Admin/Users/Form.vue:51
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:39
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:43
 #: ./vue/components/Stations/Remotes/Form/BasicInfo.vue:46
 msgid "Display Name"
 msgstr ""
@@ -1226,10 +1231,10 @@ msgstr ""
 #: ./vue/components/Admin/Settings/TestMessageModal.vue:46
 #: ./vue/components/Admin/Users/Form.vue:20
 #: ./vue/components/Setup/Register.vue:80
-#: /var/azuracast/www/templates/frontend/account/login.phtml:46
-#: /var/azuracast/www/templates/frontend/account/login.phtml:50
-#: /var/azuracast/www/templates/frontend/account/forgot.phtml:21
-#: /var/azuracast/www/templates/frontend/account/forgot.phtml:25
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:46
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:50
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot.phtml:21
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot.phtml:25
 msgid "E-mail Address"
 msgstr ""
 
@@ -1268,8 +1273,8 @@ msgid "Edit Branding"
 msgstr ""
 
 #: ./vue/components/Stations/LiquidsoapConfig.vue:33
-#: /var/azuracast/www/src/Controller/Stations/EditLiquidsoapConfigAction.php:61
-#: /var/azuracast/www/config/menus/station.php:240
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/EditLiquidsoapConfigAction.php:61
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:240
 msgid "Edit Liquidsoap Configuration"
 msgstr ""
 
@@ -1280,9 +1285,9 @@ msgstr ""
 #: ./vue/components/Account.vue:139
 #: ./vue/components/Account/EditModal.vue:10
 #: ./vue/components/Stations/Profile/HeaderPanel.vue:48
-#: /var/azuracast/www/src/Controller/Stations/ProfileController.php:219
-#: /var/azuracast/www/config/menus/station.php:62
-#: /var/azuracast/www/templates/stations/sidebar.phtml:92
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/ProfileController.php:219
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:62
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/stations/sidebar.phtml:92
 msgid "Edit Profile"
 msgstr ""
 
@@ -1362,7 +1367,7 @@ msgstr ""
 msgid "Enable this setting to prevent metadata from being sent to the AutoDJ for files in this playlist. This is useful if the playlist contains jingles or bumpers."
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:94
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:98
 msgid "Enable to advertise this mount point on \"Yellow Pages\" public radio directories."
 msgstr ""
 
@@ -1370,7 +1375,7 @@ msgstr ""
 msgid "Enable to advertise this relay on \"Yellow Pages\" public radio directories."
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:55
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:59
 msgid "Enable to allow listeners to select this mount point on this station's public pages."
 msgstr ""
 
@@ -1435,7 +1440,7 @@ msgstr ""
 msgid "Enter the current code provided by your authenticator app to verify that it's working correctly."
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:81
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:85
 msgid "Enter the full URL of another stream to relay its broadcast through this mount point."
 msgstr ""
 
@@ -1453,9 +1458,9 @@ msgstr ""
 
 #: ./vue/components/Stations/Podcasts/EpisodesView.vue:52
 #: ./vue/components/Stations/Podcasts/ListView.vue:128
-#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:42
-#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:41
-#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:86
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcasts.phtml:41
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcasts.phtml:86
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcast-episodes.phtml:42
 msgid "Episodes"
 msgstr ""
 
@@ -1473,7 +1478,7 @@ msgid "Excluding media from automated backups will save space, but you should ma
 msgstr ""
 
 #: ./vue/components/Stations/Podcasts/EpisodesView.vue:134
-#: /var/azuracast/www/templates/frontend/public/podcast-episode.phtml:98
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcast-episode.phtml:98
 msgid "Explicit"
 msgstr ""
 
@@ -1486,7 +1491,7 @@ msgstr ""
 msgid "Export Media to CSV"
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:137
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:143
 msgid "Fallback Mount"
 msgstr ""
 
@@ -1545,6 +1550,7 @@ msgstr ""
 msgid "GA Property Tracking ID"
 msgstr ""
 
+#: ./vue/components/Stations/Playlists.vue:269
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:215
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:306
 msgid "General Rotation"
@@ -1563,7 +1569,7 @@ msgid "Generate/Renew Certificate"
 msgstr ""
 
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:44
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:98
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:98
 msgid "Genre"
 msgstr ""
 
@@ -1605,8 +1611,8 @@ msgid "HLS"
 msgstr ""
 
 #: ./vue/components/Stations/HlsStreams.vue:29
-#: /var/azuracast/www/src/Controller/Stations/HlsStreamsAction.php:23
-#: /var/azuracast/www/config/menus/station.php:221
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/HlsStreamsAction.php:23
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:221
 msgid "HLS Streams"
 msgstr ""
 
@@ -1717,11 +1723,11 @@ msgstr ""
 msgid "If the port you broadcast to is different from the one you listed in the URL above, specify the source port here."
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:68
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:72
 msgid "If this mount is the default, it will be played on the radio preview and the public radio page in this system."
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:140
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:146
 msgid "If this mount point is not playing audio, listeners will automatically be redirected to this mount point. The default is /error.mp3, a repeating error message."
 msgstr ""
 
@@ -1751,6 +1757,10 @@ msgstr ""
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:44
 msgid "If your Mastodon username is \"@test@example.com\", enter \"example.com\"."
+msgstr ""
+
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:128
+msgid "If your stream is set to advertise to YP directories above, you must specify an authorization hash. You can manage these on the Shoutcast web site."
 msgstr ""
 
 #: ./vue/components/Admin/Stations/Form/StreamersForm.vue:180
@@ -1818,19 +1828,19 @@ msgid "Insert"
 msgstr ""
 
 #: ./vue/components/Admin/GeoLite.vue:43
-#: /var/azuracast/www/src/Controller/Admin/GeoLiteAction.php:23
-#: /var/azuracast/www/config/menus/admin.php:112
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/GeoLiteAction.php:23
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:112
 msgid "Install GeoLite IP Database"
 msgstr ""
 
 #: ./vue/components/Admin/Shoutcast.vue:42
-#: /var/azuracast/www/src/Controller/Admin/ShoutcastAction.php:28
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/ShoutcastAction.php:28
 msgid "Install Shoutcast 2 DNAS"
 msgstr ""
 
 #: ./vue/components/Admin/StereoTool.vue:41
-#: /var/azuracast/www/src/Controller/Admin/StereoToolAction.php:23
-#: /var/azuracast/www/config/menus/admin.php:107
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/StereoToolAction.php:23
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:107
 msgid "Install Stereo Tool"
 msgstr ""
 
@@ -1869,7 +1879,7 @@ msgid "IP Geolocation is used to guess the approximate location of your listener
 msgstr ""
 
 #: ./vue/components/Stations/Media/Form/BasicInfo.vue:82
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:103
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:103
 msgid "ISRC"
 msgstr ""
 
@@ -1879,8 +1889,8 @@ msgstr ""
 
 #: ./vue/components/Account/EditForm.vue:53
 #: ./vue/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:62
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:104
-#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:59
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:104
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcasts.phtml:59
 msgid "Language"
 msgstr ""
 
@@ -1969,41 +1979,41 @@ msgstr ""
 msgid "Listener Request"
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:336
+#: ./vue/components/Dashboard.vue:319
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:66
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:111
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:156
 #: ./vue/components/Stations/Reports/Listeners.vue:46
-#: /var/azuracast/www/src/Controller/Stations/Reports/ListenersAction.php:25
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByStream.php:100
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByCountry.php:74
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:74
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:117
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:167
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:85
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByClient.php:81
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByBrowser.php:61
-#: /var/azuracast/www/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:177
-#: /var/azuracast/www/config/menus/station.php:190
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/Reports/ListenersAction.php:25
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByBrowser.php:61
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:81
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:85
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByCountry.php:74
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByStream.php:100
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:79
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:126
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:181
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:178
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:190
 msgid "Listeners"
 msgstr ""
 
-#: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:39
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:50
+#: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:36
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:50
 msgid "Listeners by Day"
 msgstr ""
 
-#: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:61
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:91
+#: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:52
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:98
 msgid "Listeners by Day of Week"
 msgstr ""
 
-#: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:84
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:151
+#: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:69
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:162
 msgid "Listeners by Hour"
 msgstr ""
 
-#: ./vue/components/Stations/Reports/Overview/ListeningTimeTab.vue:26
+#: ./vue/components/Stations/Reports/Overview/ListeningTimeTab.vue:25
 msgid "Listeners by Listening Time"
 msgstr ""
 
@@ -2011,7 +2021,7 @@ msgstr ""
 msgid "Listeners By Time Period"
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:216
+#: ./vue/components/Dashboard.vue:211
 msgid "Listeners Per Station"
 msgstr ""
 
@@ -2065,8 +2075,8 @@ msgid "Local Streams"
 msgstr ""
 
 #: ./vue/components/Admin/Users.vue:93
-#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:3
-#: /var/azuracast/www/templates/frontend/account/login.phtml:11
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:11
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/two_factor.phtml:3
 msgid "Log In"
 msgstr ""
 
@@ -2077,7 +2087,7 @@ msgid "Log Viewer"
 msgstr ""
 
 #: ./vue/components/Stations/Queue.vue:66
-#: /var/azuracast/www/config/menus/station.php:279
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:279
 msgid "Logs"
 msgstr ""
 
@@ -2103,7 +2113,7 @@ msgid "Make the selected media play immediately, interrupting existing media"
 msgstr ""
 
 #: ./vue/components/Admin/Stations.vue:68
-#: ./vue/components/Dashboard.vue:414
+#: ./vue/components/Dashboard.vue:397
 #: ./vue/components/Stations/Profile/StreamersPanel.vue:49
 msgid "Manage"
 msgstr ""
@@ -2120,7 +2130,7 @@ msgstr ""
 msgid "Manage SFTP Accounts"
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:316
+#: ./vue/components/Dashboard.vue:299
 msgid "Manage Stations"
 msgstr ""
 
@@ -2176,7 +2186,7 @@ msgstr ""
 msgid "Matomo Site ID"
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:106
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:110
 msgid "Max Listener Duration"
 msgstr ""
 
@@ -2205,7 +2215,7 @@ msgid "Measurement Protocol API Secret"
 msgstr ""
 
 #: ./vue/components/Stations/Podcasts/EpisodeForm/Media.vue:15
-#: /var/azuracast/www/config/menus/station.php:81
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:81
 msgid "Media"
 msgstr ""
 
@@ -2294,7 +2304,7 @@ msgid "Mixer"
 msgstr ""
 
 #: ./vue/components/Stations/Reports/Listeners.vue:136
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByClient.php:62
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:62
 msgid "Mobile Device"
 msgstr ""
 
@@ -2307,7 +2317,7 @@ msgstr ""
 msgid "Most hosting providers will put more Virtual Machines (VPSes) on a server than the hardware can handle when each VM is running at full CPU load. This is called over-provisioning, which can lead to other VMs on the server \"stealing\" CPU time from your VM and vice-versa."
 msgstr ""
 
-#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:135
+#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:133
 msgid "Most Played Songs"
 msgstr ""
 
@@ -2320,13 +2330,13 @@ msgid "Mount Name:"
 msgstr ""
 
 #: ./vue/components/Stations/Mounts/Form/Advanced.vue:28
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:26
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:30
 msgid "Mount Point URL"
 msgstr ""
 
 #: ./vue/components/Stations/Mounts.vue:32
-#: /var/azuracast/www/src/Controller/Stations/MountsAction.php:33
-#: /var/azuracast/www/config/menus/station.php:214
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/MountsAction.php:33
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:214
 msgid "Mount Points"
 msgstr ""
 
@@ -2344,8 +2354,8 @@ msgstr ""
 
 #: ./vue/components/Stations/Media.vue:78
 #: ./vue/components/Stations/Profile/BackendPanel.vue:51
-#: /var/azuracast/www/src/Controller/Stations/FilesAction.php:49
-#: /var/azuracast/www/config/menus/station.php:86
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/FilesAction.php:49
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:86
 msgid "Music Files"
 msgstr ""
 
@@ -2354,9 +2364,9 @@ msgid "Mute"
 msgstr ""
 
 #: ./vue/components/Account.vue:73
-#: ./vue/components/Dashboard.vue:150
-#: /var/azuracast/www/src/Controller/Frontend/Profile/IndexAction.php:29
-#: /var/azuracast/www/templates/main.phtml:114
+#: ./vue/components/Dashboard.vue:148
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Profile/IndexAction.php:29
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:114
 msgid "My Account"
 msgstr ""
 
@@ -2433,7 +2443,7 @@ msgstr ""
 
 #: ./vue/components/Common/DataTable.vue:233
 #: ./vue/components/Common/DataTable.vue:234
-#: ./vue/components/Public/FullPlayer/SongHistory.vue:17
+#: ./vue/components/Public/FullPlayer/SongHistory.vue:14
 msgid "No records to display."
 msgstr ""
 
@@ -2470,7 +2480,7 @@ msgstr ""
 msgid "Now"
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:337
+#: ./vue/components/Dashboard.vue:320
 #: ./vue/components/Stations/Profile/NowPlayingPanel.vue:133
 msgid "Now Playing"
 msgstr ""
@@ -2511,8 +2521,8 @@ msgstr ""
 
 #: ./vue/components/Public/OnDemand.vue:43
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:75
-#: /var/azuracast/www/src/Controller/Frontend/PublicPages/OnDemandAction.php:74
-#: /var/azuracast/www/config/menus/station.php:107
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/PublicPages/OnDemandAction.php:74
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:107
 msgid "On-Demand Media"
 msgstr ""
 
@@ -2520,9 +2530,21 @@ msgstr ""
 msgid "On-Demand Streaming"
 msgstr ""
 
+#: ./vue/components/Stations/Playlists.vue:282
+msgid "Once per %{minutes} Minutes"
+msgstr ""
+
+#: ./vue/components/Stations/Playlists.vue:275
+msgid "Once per %{songs} Songs"
+msgstr ""
+
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:236
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:409
 msgid "Once per Hour"
+msgstr ""
+
+#: ./vue/components/Stations/Playlists.vue:289
+msgid "Once per Hour (at %{minute})"
 msgstr ""
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:229
@@ -2608,8 +2630,8 @@ msgstr ""
 #: ./vue/components/Recover.vue:67
 #: ./vue/components/Setup/Register.vue:96
 #: ./vue/components/Stations/SftpUsers/Form.vue:39
-#: /var/azuracast/www/templates/frontend/account/login.phtml:55
-#: /var/azuracast/www/templates/frontend/account/login.phtml:59
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:55
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:59
 msgid "Password"
 msgstr ""
 
@@ -2698,12 +2720,12 @@ msgstr ""
 #: ./vue/components/Stations/Media/MediaToolbar.vue:43
 #: ./vue/components/Stations/Playlists.vue:65
 #: ./vue/components/Stations/Profile/BackendPanel.vue:55
-#: /var/azuracast/www/src/Controller/Stations/PlaylistsAction.php:33
-#: /var/azuracast/www/config/menus/station.php:128
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/PlaylistsAction.php:33
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:128
 msgid "Playlists"
 msgstr ""
 
-#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:140
+#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:138
 msgid "Plays"
 msgstr ""
 
@@ -2717,8 +2739,8 @@ msgstr ""
 
 #: ./vue/components/Stations/Podcasts/ListView.vue:35
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:85
-#: /var/azuracast/www/src/Controller/Stations/PodcastsAction.php:33
-#: /var/azuracast/www/config/menus/station.php:136
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/PodcastsAction.php:33
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:136
 msgid "Podcasts"
 msgstr ""
 
@@ -2754,8 +2776,8 @@ msgstr ""
 
 #: ./vue/components/Account.vue:79
 #: ./vue/components/Admin/Stations/StationForm.vue:49
-#: /var/azuracast/www/src/Controller/Stations/ProfileController.php:76
-#: /var/azuracast/www/config/menus/station.php:54
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/ProfileController.php:76
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:54
 msgid "Profile"
 msgstr ""
 
@@ -2768,11 +2790,11 @@ msgstr ""
 msgid "Provide a valid license key from Thimeo. Functionality is limited without a license key."
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:362
+#: ./vue/components/Dashboard.vue:345
 #: ./vue/components/Stations/Podcasts/EpisodesView.vue:121
 #: ./vue/components/Stations/Podcasts/ListView.vue:92
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:54
-#: /var/azuracast/www/config/menus/station.php:74
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:74
 msgid "Public Page"
 msgstr ""
 
@@ -2795,7 +2817,7 @@ msgstr ""
 msgid "Publish Time"
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:91
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:95
 #: ./vue/components/Stations/Remotes/Form/AutoDj.vue:135
 msgid "Publish to \"Yellow Pages\" Directories"
 msgstr ""
@@ -2822,7 +2844,7 @@ msgstr ""
 
 #: ./vue/components/Recover.vue:35
 #: ./vue/components/Recover.vue:80
-#: /var/azuracast/www/src/Controller/Frontend/Account/RecoverAction.php:84
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/RecoverAction.php:84
 msgid "Recover Account"
 msgstr ""
 
@@ -2836,17 +2858,17 @@ msgid "Region"
 msgstr ""
 
 #: ./vue/components/Stations/Profile/FrontendPanel.vue:110
-#: /var/azuracast/www/templates/admin/relays/index.phtml:35
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/relays/index.phtml:35
 msgid "Relay"
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:78
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:82
 msgid "Relay Stream URL"
 msgstr ""
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:51
 #: ./vue/components/Admin/Updates.vue:119
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:36
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:36
 msgid "Release Channel"
 msgstr ""
 
@@ -2864,8 +2886,8 @@ msgstr ""
 
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:110
 #: ./vue/components/Stations/Remotes.vue:30
-#: /var/azuracast/www/src/Controller/Stations/RemotesAction.php:24
-#: /var/azuracast/www/config/menus/station.php:227
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/RemotesAction.php:24
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:227
 msgid "Remote Relays"
 msgstr ""
 
@@ -3020,8 +3042,8 @@ msgid "Roles"
 msgstr ""
 
 #: ./vue/components/Admin/Permissions.vue:29
-#: /var/azuracast/www/src/Controller/Admin/PermissionsAction.php:31
-#: /var/azuracast/www/config/menus/admin.php:66
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/PermissionsAction.php:31
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:66
 msgid "Roles & Permissions"
 msgstr ""
 
@@ -3030,9 +3052,9 @@ msgid "Rows per page"
 msgstr ""
 
 #: ./vue/components/Stations/Podcasts/ListView.vue:97
-#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:55
-#: /var/azuracast/www/templates/frontend/public/podcast-episode.phtml:64
-#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:79
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcasts.phtml:79
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcast-episodes.phtml:55
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcast-episode.phtml:64
 msgid "RSS Feed"
 msgstr ""
 
@@ -3078,11 +3100,11 @@ msgstr ""
 #: ./vue/components/Stations/Playlists/Form/Schedule.vue:12
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:94
 #: ./vue/components/Stations/Streamers/Form/Schedule.vue:12
-#: /var/azuracast/www/src/Controller/Frontend/PublicPages/ScheduleAction.php:47
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/PublicPages/ScheduleAction.php:47
 msgid "Schedule"
 msgstr ""
 
-#: ./vue/components/Stations/Playlists.vue:285
+#: ./vue/components/Stations/Playlists.vue:316
 #: ./vue/components/Stations/Streamers.vue:156
 msgid "Schedule View"
 msgstr ""
@@ -3261,7 +3283,7 @@ msgstr ""
 msgid "Set a maximum disk space that this storage location can use. Specify the size with unit, i.e. \"8 GB\". Units are measured in 1024 bytes. Leave blank to default to the available space on the disk."
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:65
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:69
 msgid "Set as Default Mount Point"
 msgstr ""
 
@@ -3297,7 +3319,7 @@ msgstr ""
 msgid "Set Overlap"
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:109
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:113
 msgid "Set the length of time (seconds) a listener will stay connected to the stream. If set to 0, listeners can stay connected infinitely."
 msgstr ""
 
@@ -3326,7 +3348,7 @@ msgid "SFTP Password"
 msgstr ""
 
 #: ./vue/components/Admin/StorageLocations/Form/Sftp.vue:41
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:56
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:56
 msgid "SFTP Port"
 msgstr ""
 
@@ -3343,8 +3365,8 @@ msgid "SFTP Username"
 msgstr ""
 
 #: ./vue/components/Stations/SftpUsers.vue:44
-#: /var/azuracast/www/src/Controller/Stations/SftpUsersAction.php:38
-#: /var/azuracast/www/config/menus/station.php:114
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/SftpUsersAction.php:38
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:114
 msgid "SFTP Users"
 msgstr ""
 
@@ -3365,6 +3387,7 @@ msgid "Shoutcast License ID"
 msgstr ""
 
 #: ./vue/components/Admin/Shoutcast.vue:60
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:130
 msgid "Shoutcast Radio Manager"
 msgstr ""
 
@@ -3380,7 +3403,7 @@ msgstr ""
 msgid "Show new releases within your update channel on the AzuraCast homepage."
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:52
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:56
 #: ./vue/components/Stations/Remotes/Form/BasicInfo.vue:98
 msgid "Show on Public Pages"
 msgstr ""
@@ -3429,9 +3452,9 @@ msgstr ""
 msgid "Some stream licensing providers may have specific rules regarding song requests. Check your local regulations for more information."
 msgstr ""
 
-#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:63
-#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:102
-#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:141
+#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:61
+#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:100
+#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:139
 msgid "Song"
 msgstr ""
 
@@ -3465,8 +3488,8 @@ msgid "Song Playback Order"
 msgstr ""
 
 #: ./vue/components/Stations/Reports/Timeline.vue:28
-#: /var/azuracast/www/src/Controller/Stations/Reports/TimelineAction.php:25
-#: /var/azuracast/www/config/menus/station.php:199
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/Reports/TimelineAction.php:25
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:199
 msgid "Song Playback Timeline"
 msgstr ""
 
@@ -3475,8 +3498,8 @@ msgstr ""
 #: ./vue/components/Stations/Profile/RequestsPanel.vue:36
 #: ./vue/components/Stations/Profile/RequestsPanel.vue:69
 #: ./vue/components/Stations/Reports/Requests.vue:28
-#: /var/azuracast/www/src/Controller/Stations/Reports/RequestsAction.php:25
-#: /var/azuracast/www/config/menus/station.php:194
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/Reports/RequestsAction.php:25
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:194
 msgid "Song Requests"
 msgstr ""
 
@@ -3497,7 +3520,7 @@ msgid "Song-Based Playlist"
 msgstr ""
 
 #: ./vue/components/Stations/Reports/SoundExchange.vue:41
-#: /var/azuracast/www/src/Controller/Stations/Reports/SoundExchangeAction.php:30
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/Reports/SoundExchangeAction.php:30
 msgid "SoundExchange Report"
 msgstr ""
 
@@ -3538,17 +3561,17 @@ msgstr ""
 msgid "Start Time"
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:335
+#: ./vue/components/Dashboard.vue:318
 msgid "Station Name"
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:393
+#: ./vue/components/Dashboard.vue:376
 #: ./vue/components/Public/Player.vue:92
 #: ./vue/components/Stations/Profile/NowPlayingPanel.vue:155
 msgid "Station Offline"
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:304
+#: ./vue/components/Dashboard.vue:287
 msgid "Station Overview"
 msgstr ""
 
@@ -3558,8 +3581,8 @@ msgid "Station Permissions"
 msgstr ""
 
 #: ./vue/components/Stations/Reports/Overview.vue:27
-#: /var/azuracast/www/src/Controller/Stations/Reports/OverviewAction.php:39
-#: /var/azuracast/www/config/menus/station.php:186
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/Reports/OverviewAction.php:39
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:186
 msgid "Station Statistics"
 msgstr ""
 
@@ -3569,9 +3592,9 @@ msgid "Station Time Zone"
 msgstr ""
 
 #: ./vue/components/Admin/Stations.vue:28
-#: /var/azuracast/www/src/Controller/Admin/StationsAction.php:31
-#: /var/azuracast/www/config/menus/admin.php:83
-#: /var/azuracast/www/config/menus/admin.php:87
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/StationsAction.php:31
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:83
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:87
 msgid "Stations"
 msgstr ""
 
@@ -3650,8 +3673,8 @@ msgid "Storage Location"
 msgstr ""
 
 #: ./vue/components/Admin/StorageLocations.vue:31
-#: /var/azuracast/www/src/Controller/Admin/StorageLocationsAction.php:23
-#: /var/azuracast/www/config/menus/admin.php:35
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/StorageLocationsAction.php:23
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:35
 msgid "Storage Locations"
 msgstr ""
 
@@ -3684,8 +3707,8 @@ msgid "Streamer/DJ"
 msgstr ""
 
 #: ./vue/components/Stations/Streamers.vue:46
-#: /var/azuracast/www/src/Controller/Stations/StreamersAction.php:37
-#: /var/azuracast/www/config/menus/station.php:149
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/StreamersAction.php:37
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:149
 msgid "Streamer/DJ Accounts"
 msgstr ""
 
@@ -3714,17 +3737,17 @@ msgid "Supported file formats:"
 msgstr ""
 
 #: ./vue/components/Admin/Logs.vue:36
-#: /var/azuracast/www/src/Controller/Admin/LogsAction.php:44
-#: /var/azuracast/www/config/menus/admin.php:30
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/LogsAction.php:44
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:30
 msgid "System Logs"
 msgstr ""
 
 #: ./vue/components/Admin/Settings.vue:34
 #: ./vue/components/Setup/SetupStep.vue:49
-#: /var/azuracast/www/src/Controller/Frontend/SetupController.php:169
-#: /var/azuracast/www/src/Controller/Admin/SettingsAction.php:30
-#: /var/azuracast/www/src/Notification/Check/BaseUrlCheck.php:61
-#: /var/azuracast/www/config/menus/admin.php:20
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/SettingsAction.php:30
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/SetupController.php:169
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/BaseUrlCheck.php:61
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:20
 msgid "System Settings"
 msgstr ""
 
@@ -3772,7 +3795,7 @@ msgstr ""
 msgid "The description of your podcast. The typical maximum amount of text allowed for this is 4000 characters."
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:42
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:46
 msgid "The display name assigned to this mount point when viewing it on administrative or public pages. Leave blank to automatically generate one."
 msgstr ""
 
@@ -3980,7 +4003,7 @@ msgstr ""
 msgid "This mode disables AzuraCast's AutoDJ management, using Liquidsoap itself to manage song playback. \"Next Song\" and some other features will not be available."
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:29
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:33
 msgid "This name should always begin with a slash (/), and must be a valid URL, such as /autodj.mp3"
 msgstr ""
 
@@ -4091,7 +4114,7 @@ msgstr ""
 #: ./vue/components/Stations/Playlists/QueueModal.vue:59
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:54
 #: ./vue/components/Stations/Webhooks/Form/Discord.vue:54
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:131
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:131
 msgid "Title"
 msgstr ""
 
@@ -4222,7 +4245,7 @@ msgstr ""
 msgid "Unique identifier for the target chat or username of the target channel (in the format @channelusername)."
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:273
+#: ./vue/components/Dashboard.vue:262
 #: ./vue/components/Stations/Reports/Listeners.vue:101
 msgid "Unique Listeners"
 msgstr ""
@@ -4245,8 +4268,8 @@ msgid "Up"
 msgstr ""
 
 #: ./vue/components/Stations/Queue.vue:33
-#: /var/azuracast/www/src/Controller/Stations/QueueAction.php:25
-#: /var/azuracast/www/config/menus/station.php:254
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/QueueAction.php:25
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:254
 msgid "Upcoming Song Queue"
 msgstr ""
 
@@ -4255,9 +4278,9 @@ msgid "Update"
 msgstr ""
 
 #: ./vue/components/Admin/Updates.vue:92
-#: /var/azuracast/www/src/Controller/Admin/UpdatesAction.php:33
-#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:43
-#: /var/azuracast/www/config/menus/admin.php:50
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/UpdatesAction.php:33
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/UpdateCheck.php:43
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:50
 msgid "Update AzuraCast"
 msgstr ""
 
@@ -4300,8 +4323,8 @@ msgstr ""
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:259
 #: ./vue/components/Stations/StereoToolConfig.vue:32
-#: /var/azuracast/www/src/Controller/Stations/UploadStereoToolConfigAction.php:25
-#: /var/azuracast/www/config/menus/station.php:246
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/UploadStereoToolConfigAction.php:25
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:246
 msgid "Upload Stereo Tool Configuration"
 msgstr ""
 
@@ -4372,8 +4395,8 @@ msgid "Username:"
 msgstr ""
 
 #: ./vue/components/Admin/Users.vue:35
-#: /var/azuracast/www/src/Controller/Admin/UsersAction.php:29
-#: /var/azuracast/www/config/menus/admin.php:57
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/UsersAction.php:29
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:57
 msgid "Users"
 msgstr ""
 
@@ -4405,7 +4428,7 @@ msgstr ""
 msgid "View"
 msgstr ""
 
-#: ./vue/components/Dashboard.vue:377
+#: ./vue/components/Dashboard.vue:360
 msgid "View Listener Report"
 msgstr ""
 
@@ -4452,8 +4475,8 @@ msgid "Waveform Zoom"
 msgstr ""
 
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:64
-#: /var/azuracast/www/config/menus/station.php:156
-#: /var/azuracast/www/templates/frontend/public/webdj.phtml:13
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:156
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/webdj.phtml:13
 msgid "Web DJ"
 msgstr ""
 
@@ -4474,8 +4497,8 @@ msgid "Web Hook URL"
 msgstr ""
 
 #: ./vue/components/Stations/Webhooks.vue:30
-#: /var/azuracast/www/src/Controller/Stations/WebhooksAction.php:36
-#: /var/azuracast/www/config/menus/station.php:173
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/WebhooksAction.php:36
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:173
 msgid "Web Hooks"
 msgstr ""
 
@@ -4504,6 +4527,10 @@ msgstr ""
 msgid "Website"
 msgstr ""
 
+#: ./vue/components/Stations/Playlists.vue:271
+msgid "Weight"
+msgstr ""
+
 #: ./vue/components/Setup/Register.vue:43
 msgid "Welcome to AzuraCast!"
 msgstr ""
@@ -4520,7 +4547,7 @@ msgstr ""
 msgid "Widget Type"
 msgstr ""
 
-#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:96
+#: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:94
 msgid "Worst Performing Songs"
 msgstr ""
 
@@ -4577,7 +4604,7 @@ msgstr ""
 msgid "Your installation needs to be updated. Updating is recommended for performance and security improvements."
 msgstr ""
 
-#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:121
+#: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:125
 msgid "YP Directory Authorization Hash"
 msgstr ""
 
@@ -4585,2024 +4612,2011 @@ msgstr ""
 msgid "ZStandard compression"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Stations/BulkMediaAction.php:24
-#: /var/azuracast/www/config/menus/station.php:120
-msgid "Bulk Media Import/Export"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Doctrine/Repository.php:111
+msgid "Select..."
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Stations/LogsAction.php:24
-#: /var/azuracast/www/templates/main.phtml:127
-msgid "Help"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/PublicPages/HistoryAction.php:44
-msgid "History"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/PublicPages/PodcastEpisodesAction.php:67
-msgid "No episodes found."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/PublicPages/RequestsAction.php:40
-msgid "Requests"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/PublicPages/PodcastEpisodeAction.php:55
-msgid "Episode not found."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/SetupController.php:110
-msgid "Set Up AzuraCast"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/SetupController.php:190
-msgid "Setup has already been completed!"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/ForgotPasswordAction.php:43
-msgid "Too many forgot password attempts"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/ForgotPasswordAction.php:44
-msgid "You have attempted to reset your password too many times. Please wait 30 seconds and try again."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/ForgotPasswordAction.php:61
-#: /var/azuracast/www/templates/mail/forgot.phtml:8
-msgid "Account Recovery"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/ForgotPasswordAction.php:79
-msgid "Account recovery e-mail sent."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/ForgotPasswordAction.php:80
-msgid "If the e-mail address you provided is in the system, check your inbox for a password reset message."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/MasqueradeAction.php:33
-msgid "User not found."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/MasqueradeAction.php:40
-#: /var/azuracast/www/src/Controller/Frontend/Account/TwoFactorAction.php:29
-#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:97
-#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:105
-msgid "Logged in successfully."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/TwoFactorAction.php:41
-#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:115
-msgid "Login unsuccessful"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/TwoFactorAction.php:41
-#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:115
-msgid "Your credentials could not be verified."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:60
-msgid "Too many login attempts"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:61
-msgid "You have attempted to log in too many times. Please wait 30 seconds and try again."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:98
-msgid "Complete the setup process to get started."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/RecoverAction.php:35
-msgid "Invalid token specified."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/RecoverAction.php:68
-msgid "Logged in using account recovery token"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/Account/RecoverAction.php:69
-msgid "Your password has been updated."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Frontend/DashboardAction.php:36
-#: /var/azuracast/www/templates/system/error_http.phtml:17
-#: /var/azuracast/www/templates/system/error_general.phtml:17
-#: /var/azuracast/www/templates/main.phtml:97
-msgid "Dashboard"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Admin/Debug/NextSongAction.php:45
-#: /var/azuracast/www/src/Controller/Admin/Debug/TelnetAction.php:56
-#: /var/azuracast/www/src/Controller/Admin/Debug/NowPlayingAction.php:43
-#: /var/azuracast/www/src/Controller/Admin/Debug/SyncAction.php:57
-#: /var/azuracast/www/src/Controller/Admin/Debug/ClearStationQueueAction.php:48
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/Debug/SyncAction.php:57
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/Debug/TelnetAction.php:56
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/Debug/ClearStationQueueAction.php:48
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/Debug/NextSongAction.php:45
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/Debug/NowPlayingAction.php:43
 msgid "Debug Output"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Admin/Debug/ClearQueueAction.php:34
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Admin/Debug/ClearQueueAction.php:34
 msgid "Message queue cleared."
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByStream.php:101
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByCountry.php:75
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByClient.php:82
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByBrowser.php:62
-msgid "Connected Seconds"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/LogsAction.php:24
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:127
+msgid "Help"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:99
-msgid "Monday"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Stations/BulkMediaAction.php:24
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:120
+msgid "Bulk Media Import/Export"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:100
-msgid "Tuesday"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/Stations/StorageLocationsAction.php:19
+msgid "Create a new storage location based on the base directory."
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:101
-msgid "Wednesday"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/StereoTool/PostAction.php:37
+msgid "Invalid binary uploaded."
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:102
-msgid "Thursday"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:103
-msgid "Friday"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:104
-msgid "Saturday"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:105
-msgid "Sunday"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:47
-msgid "Less than Thirty Seconds"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:48
-msgid "Thirty Seconds to One Minute"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:49
-msgid "One Minute to Five Minutes"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:50
-msgid "Five Minutes to Ten Minutes"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:51
-msgid "Ten Minutes to Thirty Minutes"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:52
-msgid "Thirty Minutes to One Hour"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:53
-msgid "One Hour to Two Hours"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:54
-msgid "More than Two Hours"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByClient.php:61
-msgid "Bot/Crawler"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByClient.php:63
-msgid "Desktop Browser"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ByClient.php:64
-msgid "Non-Browser"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/ImportAction.php:196
-#, php-format
-msgid "Playlist successfully imported; %d of %d files were successfully matched."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/PutOrderAction.php:36
-#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/GetOrderAction.php:37
-msgid "This playlist is not a sequential playlist."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/ToggleAction.php:36
-msgid "Playlist enabled."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/ToggleAction.php:37
-msgid "Playlist disabled."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/ReshuffleAction.php:35
-msgid "Playlist reshuffled."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/DeleteQueueAction.php:35
-msgid "Playlist queue cleared."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/BulkMedia/UploadAction.php:162
-#, php-format
-msgid "%d files processed."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/FilesController.php:197
-msgid "This station is out of available storage space."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/LogsAction.php:83
-msgid "Station Nginx Configuration"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/LogsAction.php:90
-msgid "Liquidsoap Log"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/LogsAction.php:95
-msgid "Liquidsoap Configuration"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/LogsAction.php:104
-msgid "Icecast Access Log"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/LogsAction.php:109
-msgid "Icecast Error Log"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/LogsAction.php:114
-msgid "Icecast Configuration"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/LogsAction.php:122
-msgid "Shoutcast Log"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/LogsAction.php:127
-msgid "Shoutcast Configuration"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:165
-msgid "Station reloaded."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:197
-msgid "Station restarted."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:217
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:271
-msgid "Service stopped."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:222
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:276
-msgid "Service started."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:228
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:282
-msgid "Service reloaded."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:240
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:294
-msgid "Service restarted."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:261
-msgid "Song skipped."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:266
-msgid "Streamer disconnected."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Streamers/BroadcastsController.php:151
-msgid "No recording available."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Webhooks/ToggleAction.php:36
-msgid "Web hook enabled."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Webhooks/ToggleAction.php:37
-msgid "Web hook disabled."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Podcasts/Art/DeleteArtAction.php:60
-msgid "Podcast not found!"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/OnDemand/ListAction.php:28
-#: /var/azuracast/www/src/Controller/Api/Stations/OnDemand/DownloadAction.php:32
-msgid "This station does not support on-demand streaming."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Files/ListAction.php:314
-msgid "Directory"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Files/ListAction.php:321
-#, php-format
-msgid "File Not Processed: %s"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Files/ListAction.php:326
-msgid "Cover Art"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Files/ListAction.php:328
-msgid "File Processing"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Files/MakeDirectoryAction.php:31
-msgid "No directory specified"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Files/RenameAction.php:30
-msgid "File not specified."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Files/RenameAction.php:36
-msgid "New path not specified."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Stations/Requests/ListAction.php:71
-msgid "This station does not support requests."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:130
-msgid "All Stations"
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Admin/UsersController.php:213
-msgid "You cannot modify yourself."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Admin/UsersController.php:236
-msgid "You cannot remove yourself."
-msgstr ""
-
-#: /var/azuracast/www/src/Controller/Api/Admin/Backups/AbstractFileAction.php:36
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/Backups/AbstractFileAction.php:36
 msgid "Backup not found."
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/LogsAction.php:77
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/LogsAction.php:77
 msgid "AzuraCast Application Log"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/LogsAction.php:83
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/LogsAction.php:83
 #, php-format
 msgid "Service Log: %s (%s)"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/LogsAction.php:98
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/LogsAction.php:98
 msgid "Nginx Access Log"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/LogsAction.php:103
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/LogsAction.php:103
 msgid "Nginx Error Log"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/LogsAction.php:108
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/LogsAction.php:108
 msgid "PHP Application Log"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/LogsAction.php:113
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/LogsAction.php:113
 msgid "Supervisord Log"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/Stations/StorageLocationsAction.php:19
-msgid "Create a new storage location based on the base directory."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/UsersController.php:213
+msgid "You cannot modify yourself."
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/StereoTool/PostAction.php:37
-msgid "Invalid binary uploaded."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/UsersController.php:236
+msgid "You cannot remove yourself."
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/SendTestMessageAction.php:47
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/SendTestMessageAction.php:47
 msgid "Test Message"
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/SendTestMessageAction.php:50
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/SendTestMessageAction.php:50
 msgid "This is a test message from AzuraCast. If you are receiving this message, it means your e-mail settings are configured correctly."
 msgstr ""
 
-#: /var/azuracast/www/src/Controller/Api/Admin/SendTestMessageAction.php:64
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Admin/SendTestMessageAction.php:64
 msgid "Test message sent successfully."
 msgstr ""
 
-#: /var/azuracast/www/src/Service/IpGeolocator/GeoLite.php:30
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Streamers/BroadcastsController.php:151
+msgid "No recording available."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/BulkMedia/UploadAction.php:162
 #, php-format
-msgid "This product includes GeoLite2 data created by MaxMind, available from %s."
+msgid "%d files processed."
 msgstr ""
 
-#: /var/azuracast/www/src/Service/IpGeolocator/DbIp.php:29
-msgid "IP Geolocation by DB-IP"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/OnDemand/ListAction.php:28
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/OnDemand/DownloadAction.php:32
+msgid "This station does not support on-demand streaming."
 msgstr ""
 
-#: /var/azuracast/www/src/Service/IpGeolocation.php:56
-msgid "GeoLite database not configured for this installation. See System Administration for instructions."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Playlists/DeleteQueueAction.php:35
+msgid "Playlist queue cleared."
 msgstr ""
 
-#: /var/azuracast/www/src/Service/ServiceControl.php:78
-msgid "Runs routine synchronized tasks"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Playlists/PutOrderAction.php:36
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Playlists/GetOrderAction.php:37
+msgid "This playlist is not a sequential playlist."
 msgstr ""
 
-#: /var/azuracast/www/src/Service/ServiceControl.php:79
-msgid "Database"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Playlists/ToggleAction.php:36
+msgid "Playlist enabled."
 msgstr ""
 
-#: /var/azuracast/www/src/Service/ServiceControl.php:80
-msgid "Web server"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Playlists/ToggleAction.php:37
+msgid "Playlist disabled."
 msgstr ""
 
-#: /var/azuracast/www/src/Service/ServiceControl.php:81
-msgid "PHP FastCGI Process Manager"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Playlists/ReshuffleAction.php:35
+msgid "Playlist reshuffled."
 msgstr ""
 
-#: /var/azuracast/www/src/Service/ServiceControl.php:82
-msgid "Now Playing manager service"
-msgstr ""
-
-#: /var/azuracast/www/src/Service/ServiceControl.php:83
-msgid "PHP queue processing worker"
-msgstr ""
-
-#: /var/azuracast/www/src/Service/ServiceControl.php:84
-msgid "Cache"
-msgstr ""
-
-#: /var/azuracast/www/src/Service/ServiceControl.php:85
-msgid "SFTP service"
-msgstr ""
-
-#: /var/azuracast/www/src/Service/ServiceControl.php:86
-msgid "Live Now Playing updates"
-msgstr ""
-
-#: /var/azuracast/www/src/Service/ServiceControl.php:87
-msgid "Meilisearch"
-msgstr ""
-
-#: /var/azuracast/www/src/Exception/SupervisorException.php:24
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Playlists/ImportAction.php:196
 #, php-format
-msgid "%s is not recognized as a service."
+msgid "Playlist successfully imported; %d of %d files were successfully matched."
 msgstr ""
 
-#: /var/azuracast/www/src/Exception/SupervisorException.php:27
-msgid "It may not be registered with Supervisor yet. Restarting broadcasting may help."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Podcasts/Art/DeleteArtAction.php:60
+msgid "Podcast not found!"
 msgstr ""
 
-#: /var/azuracast/www/src/Exception/SupervisorException.php:36
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/LogsAction.php:83
+msgid "Station Nginx Configuration"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/LogsAction.php:90
+msgid "Liquidsoap Log"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/LogsAction.php:95
+msgid "Liquidsoap Configuration"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/LogsAction.php:104
+msgid "Icecast Access Log"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/LogsAction.php:109
+msgid "Icecast Error Log"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/LogsAction.php:114
+msgid "Icecast Configuration"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/LogsAction.php:122
+msgid "Shoutcast Log"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/LogsAction.php:127
+msgid "Shoutcast Configuration"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Requests/ListAction.php:71
+msgid "This station does not support requests."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/FilesController.php:197
+msgid "This station is out of available storage space."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Files/ListAction.php:314
+msgid "Directory"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Files/ListAction.php:321
 #, php-format
-msgid "%s cannot start"
+msgid "File Not Processed: %s"
 msgstr ""
 
-#: /var/azuracast/www/src/Exception/SupervisorException.php:39
-msgid "It is already running."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Files/ListAction.php:326
+msgid "Cover Art"
 msgstr ""
 
-#: /var/azuracast/www/src/Exception/SupervisorException.php:48
-#, php-format
-msgid "%s cannot stop"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Files/ListAction.php:328
+msgid "File Processing"
 msgstr ""
 
-#: /var/azuracast/www/src/Exception/SupervisorException.php:51
-msgid "It is not running."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Files/RenameAction.php:30
+msgid "File not specified."
 msgstr ""
 
-#: /var/azuracast/www/src/Exception/SupervisorException.php:63
-#, php-format
-msgid "%s encountered an error: %s"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Files/RenameAction.php:36
+msgid "New path not specified."
 msgstr ""
 
-#: /var/azuracast/www/src/Exception/SupervisorException.php:67
-msgid "Check the log for details."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Files/MakeDirectoryAction.php:31
+msgid "No directory specified"
 msgstr ""
 
-#: /var/azuracast/www/src/Doctrine/Repository.php:111
-msgid "Select..."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByBrowser.php:62
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:82
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByCountry.php:75
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByStream.php:101
+msgid "Connected Seconds"
 msgstr ""
 
-#: /var/azuracast/www/src/Validator/Constraints/StorageLocationValidator.php:40
-#, php-format
-msgid "Storage location %s could not be validated: %s"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:61
+msgid "Bot/Crawler"
 msgstr ""
 
-#: /var/azuracast/www/src/Validator/Constraints/StorageLocationValidator.php:71
-#, php-format
-msgid "Storage location %s already exists."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:63
+msgid "Desktop Browser"
 msgstr ""
 
-#: /var/azuracast/www/src/Validator/Constraints/StationPortCheckerValidator.php:41
-#, php-format
-msgid "The port %s is in use by another station."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:64
+msgid "Non-Browser"
 msgstr ""
 
-#: /var/azuracast/www/src/Validator/Constraints/UniqueEntityValidator.php:167
-msgid "This value is already used."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:47
+msgid "Less than Thirty Seconds"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:35
-msgid "The locale to use for CLI commands."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:48
+msgid "Thirty Seconds to One Minute"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:41
-msgid "The application environment."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:49
+msgid "One Minute to Five Minutes"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:46
-msgid "Manually modify the logging level."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:50
+msgid "Five Minutes to Ten Minutes"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:47
-msgid "This allows you to log debug-level errors temporarily (for problem-solving) or reduce the volume of logs that are produced by your installation, without needing to modify whether your installation is a production or development instance."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:51
+msgid "Ten Minutes to Thirty Minutes"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:62
-msgid "Enable Custom Code Plugins"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:52
+msgid "Thirty Minutes to One Hour"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:63
-msgid "Enable the composer \"merge\" functionality to combine the main application's composer.json file with any plugin composer files. This can have performance implications, so you should only use it if you use one or more plugins with their own Composer dependencies."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:53
+msgid "One Hour to Two Hours"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:70
-msgid "Minimum Port for Station Port Assignment"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:54
+msgid "More than Two Hours"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:71
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:77
-msgid "Modify this if your stations are listening on nonstandard ports."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:106
+msgid "Monday"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:76
-msgid "Maximum Port for Station Port Assignment"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:107
+msgid "Tuesday"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:82
-msgid "Show Detailed Slim Application Errors"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:108
+msgid "Wednesday"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:83
-msgid "This allows you to debug Slim Application Errors you may encounter. Please report any Slim Application Error logs to the development team on GitHub."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:109
+msgid "Thursday"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:90
-msgid "MariaDB Host"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:110
+msgid "Friday"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:91
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:99
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:107
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:115
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:123
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:131
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:137
-msgid "Do not modify this after installation."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:111
+msgid "Saturday"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:98
-msgid "MariaDB Port"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:112
+msgid "Sunday"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:106
-msgid "MariaDB Username"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Webhooks/ToggleAction.php:36
+msgid "Web hook enabled."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:114
-msgid "MariaDB Password"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/Webhooks/ToggleAction.php:37
+msgid "Web hook disabled."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:122
-msgid "MariaDB Database Name"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:165
+msgid "Station reloaded."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:130
-msgid "Auto-generate Random MariaDB Root Password"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:197
+msgid "Station restarted."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:136
-msgid "MariaDB Root Password"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:217
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:271
+msgid "Service stopped."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:142
-msgid "Enable MariaDB Slow Query Log"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:222
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:276
+msgid "Service started."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:143
-msgid "Log slower queries to diagnose possible database issues. Only turn this on if needed."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:228
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:282
+msgid "Service reloaded."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:149
-msgid "MariaDB Maximum Connections"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:240
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:294
+msgid "Service restarted."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:150
-msgid "Set the amount of allowed connections to the database. This value should be increased if you are seeing the \"Too many connections\" error in the logs."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:261
+msgid "Song skipped."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:156
-msgid "Enable Redis"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Stations/ServicesController.php:266
+msgid "Streamer disconnected."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:157
-msgid "Disable to use a flatfile cache instead of Redis."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:130
+msgid "All Stations"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:162
-msgid "Redis Host"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/MasqueradeAction.php:33
+msgid "User not found."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:167
-msgid "Redis Port"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/MasqueradeAction.php:40
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/TwoFactorAction.php:29
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/LoginAction.php:97
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/LoginAction.php:105
+msgid "Logged in successfully."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:172
-msgid "Redis Database Index"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/RecoverAction.php:35
+msgid "Invalid token specified."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:178
-msgid "PHP Maximum POST File Size"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/RecoverAction.php:68
+msgid "Logged in using account recovery token"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:182
-msgid "PHP Memory Limit"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/RecoverAction.php:69
+msgid "Your password has been updated."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:186
-msgid "PHP Script Maximum Execution Time (Seconds)"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/ForgotPasswordAction.php:43
+msgid "Too many forgot password attempts"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:190
-msgid "Short Sync Task Execution Time (Seconds)"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/ForgotPasswordAction.php:44
+msgid "You have attempted to reset your password too many times. Please wait 30 seconds and try again."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:191
-msgid "The maximum execution time (and lock timeout) for the 15-second, 1-minute and 5-minute synchronization tasks."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/ForgotPasswordAction.php:61
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/mail/forgot.phtml:8
+msgid "Account Recovery"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:196
-msgid "Long Sync Task Execution Time (Seconds)"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/ForgotPasswordAction.php:79
+msgid "Account recovery e-mail sent."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:197
-msgid "The maximum execution time (and lock timeout) for the 1-hour synchronization task."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/ForgotPasswordAction.php:80
+msgid "If the e-mail address you provided is in the system, check your inbox for a password reset message."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:202
-msgid "Now Playing Delay Time (Seconds)"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/TwoFactorAction.php:41
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/LoginAction.php:115
+msgid "Login unsuccessful"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:203
-msgid "The delay between Now Playing checks for every station. Decrease for more frequent checks at the expense of performance; increase for less frequent checks but better performance (for large installations)."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/TwoFactorAction.php:41
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/LoginAction.php:115
+msgid "Your credentials could not be verified."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:208
-msgid "Maximum PHP-FPM Worker Processes"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/LoginAction.php:60
+msgid "Too many login attempts"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:212
-msgid "Enable Performance Profiling Extension"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/LoginAction.php:61
+msgid "You have attempted to log in too many times. Please wait 30 seconds and try again."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:214
-#, php-format
-msgid "Profiling data can be viewed by visiting %s."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/Account/LoginAction.php:98
+msgid "Complete the setup process to get started."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:219
-msgid "Profile Performance on All Requests"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/DashboardAction.php:36
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/system/error_general.phtml:17
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/system/error_http.phtml:17
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:97
+msgid "Dashboard"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:220
-msgid "This will have a significant performance impact on your installation."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/PublicPages/RequestsAction.php:40
+msgid "Requests"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:225
-msgid "Profiling Extension HTTP Key"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/PublicPages/HistoryAction.php:44
+msgid "History"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:226
-msgid "The value for the \"SPX_KEY\" parameter for viewing profiling pages."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/PublicPages/PodcastEpisodeAction.php:55
+msgid "Episode not found."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:231
-msgid "Profiling Extension IP Allow List"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/PublicPages/PodcastEpisodesAction.php:67
+msgid "No episodes found."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:236
-msgid "Enable web-based Docker image updates"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/SetupController.php:110
+msgid "Set Up AzuraCast"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:240
-msgid "Extra Ubuntu packages to install upon startup"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Controller/Frontend/SetupController.php:190
+msgid "Setup has already been completed!"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AzuraCastEnvFile.php:241
-msgid "Separate package names with a space. Packages will be installed during container startup."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Middleware/Module/StationFiles.php:20
+msgid "This feature is not currently supported on this station."
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AbstractEnvFile.php:90
-msgid "This file was automatically generated by AzuraCast."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:79
+msgid "Album Artist"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AbstractEnvFile.php:91
-msgid "You can modify it as necessary. To apply changes, restart the Docker containers."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:80
+msgid "Album Artist Sort Order"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AbstractEnvFile.php:92
-msgid "Remove the leading \"#\" symbol from lines to uncomment them."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:81
+msgid "Album Sort Order"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AbstractEnvFile.php:113
-#, php-format
-msgid "Valid options: %s"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:83
+msgid "Band"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AbstractEnvFile.php:125
-#, php-format
-msgid "Default: %s"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:84
+msgid "BPM"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/AbstractEnvFile.php:144
-msgid "Additional Environment Variables"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:85
+msgid "Comment"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:22
-msgid "(Docker Compose) All Docker containers are prefixed by this name. Do not change this after installation."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:86
+msgid "Commercial Information"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:29
-msgid "(Docker Compose) The amount of time to wait before a Docker Compose operation fails. Increase this on lower performance computers."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:87
+msgid "Composer"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:42
-msgid "HTTP Port"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:88
+msgid "Composer Sort Order"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:43
-msgid "The main port AzuraCast listens to for insecure HTTP connections."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:89
+msgid "Conductor"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:49
-msgid "HTTPS Port"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:90
+msgid "Content Group Description"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:50
-msgid "The main port AzuraCast listens to for secure HTTPS connections."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:91
+msgid "Copyright"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:57
-msgid "The port AzuraCast listens to for SFTP file management connections."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:92
+msgid "Copyright Message"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:63
-msgid "Station Ports"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:93
+msgid "Encoded By"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:64
-msgid "The ports AzuraCast should listen to for station broadcasts and incoming DJ connections."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:94
+msgid "Encoder Settings"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:70
-msgid "Docker User UID"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:95
+msgid "Encoding Time"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:71
-msgid "Set the UID of the user running inside the Docker containers. Matching this with your host UID can fix permission issues."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:96
+msgid "File Owner"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:77
-msgid "Docker User GID"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:97
+msgid "File Type"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:78
-msgid "Set the GID of the user running inside the Docker containers. Matching this with your host GID can fix permission issues."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:99
+msgid "Initial Key"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:84
-msgid "Use Podman instead of Docker."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:100
+msgid "Internet Radio Station Name"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/EnvFiles/EnvFile.php:88
-msgid "Advanced: Use Privileged Docker Settings"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:101
+msgid "Internet Radio Station Owner"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:178
-msgid "AzuraCast Installer"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:102
+msgid "Involved People List"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:181
-msgid "Welcome to AzuraCast! Complete the initial server setup by answering a few questions."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:105
+msgid "Length"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:187
-msgid "AzuraCast Updater"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:106
+msgid "Linked Information"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:194
-msgid "Change installation settings?"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:107
+msgid "Lyricist"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:203
-msgid "AzuraCast is currently configured to listen on the following ports:"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:108
+msgid "Media Type"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:207
-#, php-format
-msgid "HTTP Port: %d"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:109
+msgid "Mood"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:208
-#, php-format
-msgid "HTTPS Port: %d"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:110
+msgid "Music CD Identifier"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:209
-#, php-format
-msgid "SFTP Port: %d"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:111
+msgid "Musician Credits List"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:210
-#, php-format
-msgid "Radio Ports: %s"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:112
+msgid "Original Album"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:215
-msgid "Customize ports used for AzuraCast?"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:113
+msgid "Original Artist"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:264
-msgid "Writing configuration files..."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:114
+msgid "Original Filename"
 msgstr ""
 
-#: /var/azuracast/www/src/Installer/Command/InstallCommand.php:289
-msgid "Server configuration complete!"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:115
+msgid "Original Lyricist"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/ProfilerAdvisorCheck.php:37
-msgid "The performance profiling extension is currently enabled on this installation."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:116
+msgid "Original Release Time"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/ProfilerAdvisorCheck.php:38
-msgid "You can track the execution time and memory usage of any AzuraCast page or application from the profiler page."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:117
+msgid "Original Year"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/ProfilerAdvisorCheck.php:44
-msgid "Profiler Control Panel"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:118
+msgid "Part of a Compilation"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/ProfilerAdvisorCheck.php:56
-msgid "Performance profiling is currently enabled for all requests."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:119
+msgid "Part of a Set"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/ProfilerAdvisorCheck.php:57
-msgid "This can have an adverse impact on system performance. You should disable this when possible."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:120
+msgid "Performer Sort Order"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/BaseUrlCheck.php:45
-msgid "You may want to update your base URL to ensure it is correct."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:121
+msgid "Playlist Delay"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/BaseUrlCheck.php:48
-msgid "If you regularly use different URLs to access AzuraCast, you should enable the \"Prefer Browser URL\" setting."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:122
+msgid "Produced Notice"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/BaseUrlCheck.php:55
-#, php-format
-msgid "Your \"Base URL\" setting (%s) does not match the URL you are currently using (%s)."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:123
+msgid "Publisher"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:51
-#, php-format
-msgid "AzuraCast <a href=\"%s\" target=\"_blank\">version %s</a> is now available."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:124
+msgid "Recording Time"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:56
-#, php-format
-msgid "You are currently running version %s. Updating is highly recommended."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:125
+msgid "Release Time"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:62
-msgid "New AzuraCast Release Version Available"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:126
+msgid "Remixer"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:76
-#, php-format
-msgid "Your installation is currently %d update(s) behind the latest version."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:127
+msgid "Set Subtitle"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:81
-msgid "View the changelog for full details."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:128
+msgid "Subtitle"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:84
-msgid "You should update to take advantage of bug and security fixes."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:129
+msgid "Tagging Time"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:87
-msgid "New AzuraCast Updates Available"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:130
+msgid "Terms of Use"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/ServiceCheck.php:34
-#, php-format
-msgid "Service Not Running: %s"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:132
+msgid "Title Sort Order"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/ServiceCheck.php:35
-msgid "One of the essential services on this installation is not currently running. Visit the system administration and check the system logs to find the cause of this issue."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:133
+msgid "Track Number"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/SyncTaskCheck.php:38
-msgid "Synchronization Disabled"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:134
+msgid "Unsynchronised Lyrics"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/SyncTaskCheck.php:39
-msgid "Routine synchronization is currently disabled. Make sure to re-enable it to resume routine maintenance tasks."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:135
+msgid "URL Artist"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/SyncTaskCheck.php:53
-msgid "Synchronization Not Recently Run"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:136
+msgid "URL File"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/SyncTaskCheck.php:54
-msgid "The routine synchronization task has not run recently. This may indicate an error with your installation."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:137
+msgid "URL Payment"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/SyncTaskCheck.php:61
-#: /var/azuracast/www/config/menus/admin.php:45
-#: /var/azuracast/www/templates/admin/debug/index.phtml:11
-#: /var/azuracast/www/templates/admin/debug/index.phtml:30
-msgid "System Debugger"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:138
+msgid "URL Publisher"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/RecentBackupCheck.php:49
-msgid "Installation Not Recently Backed Up"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:139
+msgid "URL Source"
 msgstr ""
 
-#: /var/azuracast/www/src/Notification/Check/RecentBackupCheck.php:50
-msgid "This installation has not been backed up in the last two weeks."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:140
+msgid "URL Station"
 msgstr ""
 
-#: /var/azuracast/www/src/Entity/ApiGenerator/ScheduleApiGenerator.php:56
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:141
+msgid "URL User"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Media/Enums/MetadataTags.php:142
+msgid "Year"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Error.php:71
+msgid "Record not found"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Error.php:77
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Error.php:78
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive from the HTML form."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Error.php:79
+msgid "The uploaded file was only partially uploaded."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Error.php:80
+msgid "No file was uploaded."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Error.php:81
+msgid "No temporary directory is available."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Error.php:82
+msgid "Could not write to filesystem."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Error.php:83
+msgid "Upload halted by a PHP extension."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Error.php:84
+msgid "Unspecified error."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Status.php:33
+msgid "Changes saved successfully."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Status.php:38
+msgid "Record created successfully."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Status.php:43
+msgid "Record updated successfully."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Api/Status.php:48
+msgid "Record deleted successfully."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/ApiGenerator/ScheduleApiGenerator.php:56
 #, php-format
 msgid "Playlist: %s"
 msgstr ""
 
-#: /var/azuracast/www/src/Entity/ApiGenerator/ScheduleApiGenerator.php:61
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/ApiGenerator/ScheduleApiGenerator.php:61
 #, php-format
 msgid "Streamer: %s"
 msgstr ""
 
-#: /var/azuracast/www/src/Entity/Api/Error.php:71
-msgid "Record not found"
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Error.php:77
-msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Error.php:78
-msgid "The uploaded file exceeds the MAX_FILE_SIZE directive from the HTML form."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Error.php:79
-msgid "The uploaded file was only partially uploaded."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Error.php:80
-msgid "No file was uploaded."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Error.php:81
-msgid "No temporary directory is available."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Error.php:82
-msgid "Could not write to filesystem."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Error.php:83
-msgid "Upload halted by a PHP extension."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Error.php:84
-msgid "Unspecified error."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Status.php:33
-msgid "Changes saved successfully."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Status.php:38
-msgid "Record created successfully."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Status.php:43
-msgid "Record updated successfully."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Api/Status.php:48
-msgid "Record deleted successfully."
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Repository/StorageLocationRepository.php:77
-msgid "None"
-msgstr ""
-
-#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:63
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Repository/StationRequestRepository.php:63
 msgid "This station does not accept requests currently."
 msgstr ""
 
-#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:70
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Repository/StationRequestRepository.php:70
 msgid "Search engine crawlers are not permitted to use this feature."
 msgstr ""
 
-#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:75
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Repository/StationRequestRepository.php:75
 msgid "You are not permitted to submit requests."
 msgstr ""
 
-#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:82
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Repository/StationRequestRepository.php:82
 msgid "The song ID you specified cannot be requested for this station."
 msgstr ""
 
-#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:113
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Repository/StationRequestRepository.php:113
 msgid "You have submitted a request too recently! Please wait before submitting another one."
 msgstr ""
 
-#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:158
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Repository/StationRequestRepository.php:158
 msgid "Duplicate request: this song was already requested and will play soon."
 msgstr ""
 
-#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:237
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Repository/StationRequestRepository.php:237
 msgid "This song or artist has been played too recently. Wait a while before requesting it again."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/MigrateConfigCommand.php:111
-msgid "Configuration successfully written."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Entity/Repository/StorageLocationRepository.php:77
+msgid "None"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/Backup/RestoreCommand.php:75
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/ServiceControl.php:78
+msgid "Runs routine synchronized tasks"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/ServiceControl.php:79
+msgid "Database"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/ServiceControl.php:80
+msgid "Web server"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/ServiceControl.php:81
+msgid "PHP FastCGI Process Manager"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/ServiceControl.php:82
+msgid "Now Playing manager service"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/ServiceControl.php:83
+msgid "PHP queue processing worker"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/ServiceControl.php:84
+msgid "Cache"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/ServiceControl.php:85
+msgid "SFTP service"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/ServiceControl.php:86
+msgid "Live Now Playing updates"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/ServiceControl.php:87
+msgid "Meilisearch"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/IpGeolocator/DbIp.php:29
+msgid "IP Geolocation by DB-IP"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/IpGeolocator/GeoLite.php:30
 #, php-format
-msgid "Backup path %s not found!"
+msgid "This product includes GeoLite2 data created by MaxMind, available from %s."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:97
-msgid "AzuraCast Backup"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Service/IpGeolocation.php:56
+msgid "GeoLite database not configured for this installation. See System Administration for instructions."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:98
-msgid "Please wait while a backup is generated..."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AbstractEnvFile.php:90
+msgid "This file was automatically generated by AzuraCast."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:101
-msgid "Creating temporary directories..."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AbstractEnvFile.php:91
+msgid "You can modify it as necessary. To apply changes, restart the Docker containers."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:114
-msgid "Backing up MariaDB..."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AbstractEnvFile.php:92
+msgid "Remove the leading \"#\" symbol from lines to uncomment them."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:141
-msgid "Creating backup archive..."
-msgstr ""
-
-#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:217
-msgid "Cleaning up temporary files..."
-msgstr ""
-
-#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:229
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AbstractEnvFile.php:113
 #, php-format
-msgid "Backup complete in %.2f seconds."
+msgid "Valid options: %s"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/Settings/ListCommand.php:30
-msgid "AzuraCast Settings"
-msgstr ""
-
-#: /var/azuracast/www/src/Console/Command/Settings/ListCommand.php:33
-msgid "Setting Key"
-msgstr ""
-
-#: /var/azuracast/www/src/Console/Command/Settings/ListCommand.php:34
-msgid "Setting Value"
-msgstr ""
-
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:25
-msgid "Database Migrations"
-msgstr ""
-
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:38
-msgid "Database is already up to date!"
-msgstr ""
-
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:43
-msgid "Backing up initial database state..."
-msgstr ""
-
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:52
-msgid "We detected a database restore file from a previous (possibly failed) migration."
-msgstr ""
-
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:53
-msgid "Attempting to restore that now..."
-msgstr ""
-
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:61
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:114
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AbstractEnvFile.php:125
 #, php-format
-msgid "Restore failed: %s"
+msgid "Default: %s"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:73
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AbstractEnvFile.php:144
+msgid "Additional Environment Variables"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:22
+msgid "(Docker Compose) All Docker containers are prefixed by this name. Do not change this after installation."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:29
+msgid "(Docker Compose) The amount of time to wait before a Docker Compose operation fails. Increase this on lower performance computers."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:42
+msgid "HTTP Port"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:43
+msgid "The main port AzuraCast listens to for insecure HTTP connections."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:49
+msgid "HTTPS Port"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:50
+msgid "The main port AzuraCast listens to for secure HTTPS connections."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:57
+msgid "The port AzuraCast listens to for SFTP file management connections."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:63
+msgid "Station Ports"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:64
+msgid "The ports AzuraCast should listen to for station broadcasts and incoming DJ connections."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:70
+msgid "Docker User UID"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:71
+msgid "Set the UID of the user running inside the Docker containers. Matching this with your host UID can fix permission issues."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:77
+msgid "Docker User GID"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:78
+msgid "Set the GID of the user running inside the Docker containers. Matching this with your host GID can fix permission issues."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:84
+msgid "Use Podman instead of Docker."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/EnvFile.php:88
+msgid "Advanced: Use Privileged Docker Settings"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:35
+msgid "The locale to use for CLI commands."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:41
+msgid "The application environment."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:46
+msgid "Manually modify the logging level."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:47
+msgid "This allows you to log debug-level errors temporarily (for problem-solving) or reduce the volume of logs that are produced by your installation, without needing to modify whether your installation is a production or development instance."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:62
+msgid "Enable Custom Code Plugins"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:63
+msgid "Enable the composer \"merge\" functionality to combine the main application's composer.json file with any plugin composer files. This can have performance implications, so you should only use it if you use one or more plugins with their own Composer dependencies."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:70
+msgid "Minimum Port for Station Port Assignment"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:71
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:77
+msgid "Modify this if your stations are listening on nonstandard ports."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:76
+msgid "Maximum Port for Station Port Assignment"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:82
+msgid "Show Detailed Slim Application Errors"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:83
+msgid "This allows you to debug Slim Application Errors you may encounter. Please report any Slim Application Error logs to the development team on GitHub."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:90
+msgid "MariaDB Host"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:91
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:99
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:107
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:115
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:123
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:131
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:137
+msgid "Do not modify this after installation."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:98
+msgid "MariaDB Port"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:106
+msgid "MariaDB Username"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:114
+msgid "MariaDB Password"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:122
+msgid "MariaDB Database Name"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:130
+msgid "Auto-generate Random MariaDB Root Password"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:136
+msgid "MariaDB Root Password"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:142
+msgid "Enable MariaDB Slow Query Log"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:143
+msgid "Log slower queries to diagnose possible database issues. Only turn this on if needed."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:149
+msgid "MariaDB Maximum Connections"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:150
+msgid "Set the amount of allowed connections to the database. This value should be increased if you are seeing the \"Too many connections\" error in the logs."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:156
+msgid "Enable Redis"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:157
+msgid "Disable to use a flatfile cache instead of Redis."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:162
+msgid "Redis Host"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:167
+msgid "Redis Port"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:172
+msgid "Redis Database Index"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:178
+msgid "PHP Maximum POST File Size"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:182
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:186
+msgid "PHP Script Maximum Execution Time (Seconds)"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:190
+msgid "Short Sync Task Execution Time (Seconds)"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:191
+msgid "The maximum execution time (and lock timeout) for the 15-second, 1-minute and 5-minute synchronization tasks."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:196
+msgid "Long Sync Task Execution Time (Seconds)"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:197
+msgid "The maximum execution time (and lock timeout) for the 1-hour synchronization task."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:202
+msgid "Now Playing Delay Time (Seconds)"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:203
+msgid "The delay between Now Playing checks for every station. Decrease for more frequent checks at the expense of performance; increase for less frequent checks but better performance (for large installations)."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:208
+msgid "Maximum PHP-FPM Worker Processes"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:212
+msgid "Enable Performance Profiling Extension"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:214
 #, php-format
-msgid "Initial backup failed: %s"
+msgid "Profiling data can be viewed by visiting %s."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:82
-msgid "Running database migrations..."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:219
+msgid "Profile Performance on All Requests"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:96
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:220
+msgid "This will have a significant performance impact on your installation."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:225
+msgid "Profiling Extension HTTP Key"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:226
+msgid "The value for the \"SPX_KEY\" parameter for viewing profiling pages."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:231
+msgid "Profiling Extension IP Allow List"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:236
+msgid "Enable web-based Docker image updates"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:240
+msgid "Extra Ubuntu packages to install upon startup"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/EnvFiles/AzuraCastEnvFile.php:241
+msgid "Separate package names with a space. Packages will be installed during container startup."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:178
+msgid "AzuraCast Installer"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:181
+msgid "Welcome to AzuraCast! Complete the initial server setup by answering a few questions."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:187
+msgid "AzuraCast Updater"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:194
+msgid "Change installation settings?"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:203
+msgid "AzuraCast is currently configured to listen on the following ports:"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:207
 #, php-format
-msgid "Database migration failed: %s"
+msgid "HTTP Port: %d"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:101
-msgid "Attempting to roll back to previous database state..."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:208
+#, php-format
+msgid "HTTPS Port: %d"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:107
-msgid "Your database was restored due to a failed migration."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:209
+#, php-format
+msgid "SFTP Port: %d"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:108
-msgid "Please report this bug to our developers."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:210
+#, php-format
+msgid "Radio Ports: %s"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/MigrateDbCommand.php:126
-msgid "Database migration completed!"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:215
+msgid "Customize ports used for AzuraCast?"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupFixturesCommand.php:63
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:264
+msgid "Writing configuration files..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Installer/Command/InstallCommand.php:289
+msgid "Server configuration complete!"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupFixturesCommand.php:63
 msgid "Fixtures loaded."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/Users/SetAdministratorCommand.php:58
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Users/SetAdministratorCommand.php:58
 #, php-format
 msgid "The account associated with e-mail address \"%s\" has been set as an administrator"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/Users/SetAdministratorCommand.php:66
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Users/SetAdministratorCommand.php:66
 msgid "Account not found."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/Locale/ImportCommand.php:58
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Locale/ImportCommand.php:58
 #, php-format
 msgid "Imported locale: %s"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:58
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateConfigCommand.php:111
+msgid "Configuration successfully written."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:58
 msgid "AzuraCast Initializing..."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:60
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:60
 msgid "AzuraCast Setup"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:62
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:62
 msgid "Welcome to AzuraCast. Please wait while some key dependencies of AzuraCast are set up..."
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:67
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:67
 msgid "Running Database Migrations"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:75
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:75
 msgid "Generating Database Proxy Classes"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:80
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:80
 msgid "Reload System Data"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:90
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:90
 msgid "Installing Data Fixtures"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:96
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:96
 msgid "Refreshing All Stations"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:123
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:123
 msgid "AzuraCast is now updated to the latest version!"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:132
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:132
 msgid "AzuraCast installation complete!"
 msgstr ""
 
-#: /var/azuracast/www/src/Console/Command/SetupCommand.php:134
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/SetupCommand.php:134
 #, php-format
 msgid "Visit %s to complete setup."
 msgstr ""
 
-#: /var/azuracast/www/src/Http/ErrorHandler.php:166
-#: /var/azuracast/www/src/Http/ErrorHandler.php:178
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Settings/ListCommand.php:30
+msgid "AzuraCast Settings"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Settings/ListCommand.php:33
+msgid "Setting Key"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Settings/ListCommand.php:34
+msgid "Setting Value"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:25
+msgid "Database Migrations"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:38
+msgid "Database is already up to date!"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:43
+msgid "Backing up initial database state..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:52
+msgid "We detected a database restore file from a previous (possibly failed) migration."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:53
+msgid "Attempting to restore that now..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:61
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:114
+#, php-format
+msgid "Restore failed: %s"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:73
+#, php-format
+msgid "Initial backup failed: %s"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:82
+msgid "Running database migrations..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:96
+#, php-format
+msgid "Database migration failed: %s"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:101
+msgid "Attempting to roll back to previous database state..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:107
+msgid "Your database was restored due to a failed migration."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:108
+msgid "Please report this bug to our developers."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/MigrateDbCommand.php:126
+msgid "Database migration completed!"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Backup/BackupCommand.php:97
+msgid "AzuraCast Backup"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Backup/BackupCommand.php:98
+msgid "Please wait while a backup is generated..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Backup/BackupCommand.php:101
+msgid "Creating temporary directories..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Backup/BackupCommand.php:114
+msgid "Backing up MariaDB..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Backup/BackupCommand.php:141
+msgid "Creating backup archive..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Backup/BackupCommand.php:217
+msgid "Cleaning up temporary files..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Backup/BackupCommand.php:229
+#, php-format
+msgid "Backup complete in %.2f seconds."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Console/Command/Backup/RestoreCommand.php:75
+#, php-format
+msgid "Backup path %s not found!"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/BaseUrlCheck.php:45
+msgid "You may want to update your base URL to ensure it is correct."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/BaseUrlCheck.php:48
+msgid "If you regularly use different URLs to access AzuraCast, you should enable the \"Prefer Browser URL\" setting."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/BaseUrlCheck.php:55
+#, php-format
+msgid "Your \"Base URL\" setting (%s) does not match the URL you are currently using (%s)."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/ServiceCheck.php:34
+#, php-format
+msgid "Service Not Running: %s"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/ServiceCheck.php:35
+msgid "One of the essential services on this installation is not currently running. Visit the system administration and check the system logs to find the cause of this issue."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/ProfilerAdvisorCheck.php:37
+msgid "The performance profiling extension is currently enabled on this installation."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/ProfilerAdvisorCheck.php:38
+msgid "You can track the execution time and memory usage of any AzuraCast page or application from the profiler page."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/ProfilerAdvisorCheck.php:44
+msgid "Profiler Control Panel"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/ProfilerAdvisorCheck.php:56
+msgid "Performance profiling is currently enabled for all requests."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/ProfilerAdvisorCheck.php:57
+msgid "This can have an adverse impact on system performance. You should disable this when possible."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/UpdateCheck.php:50
+msgid "New AzuraCast Stable Release Available"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/UpdateCheck.php:54
+#, php-format
+msgid "Version %s is now available. You are currently running version %s. Updating is recommended."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/UpdateCheck.php:70
+msgid "New AzuraCast Rolling Release Available"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/UpdateCheck.php:74
+#, php-format
+msgid "Your installation is currently %d update(s) behind the latest version. Updating is recommended."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/SyncTaskCheck.php:38
+msgid "Synchronization Disabled"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/SyncTaskCheck.php:39
+msgid "Routine synchronization is currently disabled. Make sure to re-enable it to resume routine maintenance tasks."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/SyncTaskCheck.php:53
+msgid "Synchronization Not Recently Run"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/SyncTaskCheck.php:54
+msgid "The routine synchronization task has not run recently. This may indicate an error with your installation."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/SyncTaskCheck.php:61
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:45
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:11
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:30
+msgid "System Debugger"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/RecentBackupCheck.php:49
+msgid "Installation Not Recently Backed Up"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Notification/Check/RecentBackupCheck.php:50
+msgid "This installation has not been backed up in the last two weeks."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Exception/SupervisorException.php:24
+#, php-format
+msgid "%s is not recognized as a service."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Exception/SupervisorException.php:27
+msgid "It may not be registered with Supervisor yet. Restarting broadcasting may help."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Exception/SupervisorException.php:36
+#, php-format
+msgid "%s cannot start"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Exception/SupervisorException.php:39
+msgid "It is already running."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Exception/SupervisorException.php:48
+#, php-format
+msgid "%s cannot stop"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Exception/SupervisorException.php:51
+msgid "It is not running."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Exception/SupervisorException.php:63
+#, php-format
+msgid "%s encountered an error: %s"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Exception/SupervisorException.php:67
+msgid "Check the log for details."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Http/ErrorHandler.php:166
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Http/ErrorHandler.php:178
 msgid "You must be logged in to access this page."
 msgstr ""
 
-#: /var/azuracast/www/src/Http/ErrorHandler.php:196
-#: /var/azuracast/www/src/Http/ErrorHandler.php:208
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Http/ErrorHandler.php:196
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Http/ErrorHandler.php:208
 msgid "You do not have permission to access this portion of the site."
 msgstr ""
 
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:79
-msgid "Album Artist"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Validator/Constraints/UniqueEntityValidator.php:167
+msgid "This value is already used."
 msgstr ""
 
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:80
-msgid "Album Artist Sort Order"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Validator/Constraints/StationPortCheckerValidator.php:41
+#, php-format
+msgid "The port %s is in use by another station."
 msgstr ""
 
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:81
-msgid "Album Sort Order"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Validator/Constraints/StorageLocationValidator.php:40
+#, php-format
+msgid "Storage location %s could not be validated: %s"
 msgstr ""
 
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:83
-msgid "Band"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Validator/Constraints/StorageLocationValidator.php:71
+#, php-format
+msgid "Storage location %s already exists."
 msgstr ""
 
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:84
-msgid "BPM"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:85
-msgid "Comment"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:86
-msgid "Commercial Information"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:87
-msgid "Composer"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:88
-msgid "Composer Sort Order"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:89
-msgid "Conductor"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:90
-msgid "Content Group Description"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:91
-msgid "Copyright"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:92
-msgid "Copyright Message"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:93
-msgid "Encoded By"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:94
-msgid "Encoder Settings"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:95
-msgid "Encoding Time"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:96
-msgid "File Owner"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:97
-msgid "File Type"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:99
-msgid "Initial Key"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:100
-msgid "Internet Radio Station Name"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:101
-msgid "Internet Radio Station Owner"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:102
-msgid "Involved People List"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:105
-msgid "Length"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:106
-msgid "Linked Information"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:107
-msgid "Lyricist"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:108
-msgid "Media Type"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:109
-msgid "Mood"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:110
-msgid "Music CD Identifier"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:111
-msgid "Musician Credits List"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:112
-msgid "Original Album"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:113
-msgid "Original Artist"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:114
-msgid "Original Filename"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:115
-msgid "Original Lyricist"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:116
-msgid "Original Release Time"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:117
-msgid "Original Year"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:118
-msgid "Part of a Compilation"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:119
-msgid "Part of a Set"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:120
-msgid "Performer Sort Order"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:121
-msgid "Playlist Delay"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:122
-msgid "Produced Notice"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:123
-msgid "Publisher"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:124
-msgid "Recording Time"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:125
-msgid "Release Time"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:126
-msgid "Remixer"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:127
-msgid "Set Subtitle"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:128
-msgid "Subtitle"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:129
-msgid "Tagging Time"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:130
-msgid "Terms of Use"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:132
-msgid "Title Sort Order"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:133
-msgid "Track Number"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:134
-msgid "Unsynchronised Lyrics"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:135
-msgid "URL Artist"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:136
-msgid "URL File"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:137
-msgid "URL Payment"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:138
-msgid "URL Publisher"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:139
-msgid "URL Source"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:140
-msgid "URL Station"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:141
-msgid "URL User"
-msgstr ""
-
-#: /var/azuracast/www/src/Media/Enums/MetadataTags.php:142
-msgid "Year"
-msgstr ""
-
-#: /var/azuracast/www/src/Middleware/Module/StationFiles.php:20
-msgid "This feature is not currently supported on this station."
-msgstr ""
-
-#: /var/azuracast/www/src/Enums/GlobalPermissions.php:22
-#: /var/azuracast/www/src/Enums/StationPermissions.php:26
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/GlobalPermissions.php:22
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:26
 msgid "All Permissions"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/GlobalPermissions.php:23
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/GlobalPermissions.php:23
 msgid "View Administration Page"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/GlobalPermissions.php:24
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/GlobalPermissions.php:24
 msgid "View System Logs"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/GlobalPermissions.php:25
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/GlobalPermissions.php:25
 msgid "Administer Settings"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/GlobalPermissions.php:26
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/GlobalPermissions.php:26
 msgid "Administer API Keys"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/GlobalPermissions.php:27
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/GlobalPermissions.php:27
 msgid "Administer Stations"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/GlobalPermissions.php:28
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/GlobalPermissions.php:28
 msgid "Administer Custom Fields"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/GlobalPermissions.php:29
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/GlobalPermissions.php:29
 msgid "Administer Backups"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/GlobalPermissions.php:30
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/GlobalPermissions.php:30
 msgid "Administer Storage Locations"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:27
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:27
 msgid "View Station Page"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:28
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:28
 msgid "View Station Reports"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:29
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:29
 msgid "View Station Logs"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:30
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:30
 msgid "Manage Station Profile"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:31
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:31
 msgid "Manage Station Broadcasting"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:32
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:32
 msgid "Manage Station Streamers"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:33
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:33
 msgid "Manage Station Mount Points"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:34
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:34
 msgid "Manage Station Remote Relays"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:35
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:35
 msgid "Manage Station Media"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:36
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:36
 msgid "Manage Station Automation"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:37
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:37
 msgid "Manage Station Web Hooks"
 msgstr ""
 
-#: /var/azuracast/www/src/Enums/StationPermissions.php:38
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/src/Enums/StationPermissions.php:38
 msgid "Manage Station Podcasts"
 msgstr ""
 
-#: /var/azuracast/www/config/menus/station.php:20
-msgid "Restart broadcasting? This will disconnect any current listeners."
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:21
-msgid "Reload broadcasting? Current listeners will not be disconnected."
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:33
-msgid "Start Station"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:34
-msgid "Ready to start broadcasting? Click to start your station."
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:43
-msgid "Reload to Apply Changes"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:44
-msgid "Click to restart your station and apply configuration changes."
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:58
-msgid "View Profile"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:67
-msgid "Branding"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:92
-msgid "Duplicate Songs"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:97
-msgid "Unprocessable Files"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:102
-msgid "Unassigned Files"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:144
-msgid "Live Streaming"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:181
-msgid "Reports"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:203
-msgid "SoundExchange Royalties"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:260
-msgid "Reload Configuration"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/station.php:268
-msgid "Restart Broadcasting"
-msgstr ""
-
-#: /var/azuracast/www/config/menus/admin.php:16
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:16
 msgid "System Maintenance"
 msgstr ""
 
-#: /var/azuracast/www/config/menus/admin.php:61
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:61
 msgid "User Accounts"
 msgstr ""
 
-#: /var/azuracast/www/config/menus/admin.php:97
-#: /var/azuracast/www/templates/admin/relays/index.phtml:8
-#: /var/azuracast/www/templates/admin/relays/index.phtml:30
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:97
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/relays/index.phtml:8
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/relays/index.phtml:30
 msgid "Connected AzuraRelays"
 msgstr ""
 
-#: /var/azuracast/www/config/menus/admin.php:102
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/admin.php:102
 msgid "Install Shoutcast"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:33
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:20
+msgid "Restart broadcasting? This will disconnect any current listeners."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:21
+msgid "Reload broadcasting? Current listeners will not be disconnected."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:33
+msgid "Start Station"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:34
+msgid "Ready to start broadcasting? Click to start your station."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:43
+msgid "Reload to Apply Changes"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:44
+msgid "Click to restart your station and apply configuration changes."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:58
+msgid "View Profile"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:67
+msgid "Branding"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:92
+msgid "Duplicate Songs"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:97
+msgid "Unprocessable Files"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:102
+msgid "Unassigned Files"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:144
+msgid "Live Streaming"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:181
+msgid "Reports"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:203
+msgid "SoundExchange Royalties"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:260
+msgid "Reload Configuration"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/menus/station.php:268
+msgid "Restart Broadcasting"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:33
 msgid "Generic Web Hook"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:34
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:34
 msgid "Automatically send a message to any URL when your station data changes."
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:39
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:39
 msgid "Send E-mail"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:40
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:40
 msgid "Send an e-mail to specified address(es)."
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:45
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:45
 msgid "TuneIn AIR"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:46
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:46
 msgid "Send song metadata changes to TuneIn."
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:51
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:51
 msgid "Discord Webhook"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:52
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:52
 msgid "Automatically send a customized message to your Discord server."
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:57
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:57
 msgid "Telegram Chat Message"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:58
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:58
 msgid "Use the Telegram Bot API to send a message to a channel."
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:63
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:63
 msgid "Twitter Post"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:64
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:64
 msgid "Automatically send a tweet."
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:69
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:69
 msgid "Mastodon Post"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:70
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:70
 msgid "Automatically publish to a Mastodon instance."
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:75
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:75
 msgid "Google Analytics V3 Integration"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:76
-#: /var/azuracast/www/config/webhooks.php:82
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:76
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:82
 msgid "Send stream listener details to Google Analytics."
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:81
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:81
 msgid "Google Analytics V4 Integration"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:87
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:87
 msgid "Matomo Analytics Integration"
 msgstr ""
 
-#: /var/azuracast/www/config/webhooks.php:88
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/config/webhooks.php:88
 msgid "Send stream listener details to Matomo Analytics."
 msgstr ""
 
-#: /var/azuracast/www/templates/minimal.phtml:58
-#: /var/azuracast/www/templates/main.phtml:194
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/system/log_view.phtml:33
+msgid "Details"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/minimal.phtml:58
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:194
 msgid "Footer"
 msgstr ""
 
-#: /var/azuracast/www/templates/minimal.phtml:60
-#: /var/azuracast/www/templates/main.phtml:196
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/minimal.phtml:60
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:196
 #, php-format
 msgid "Powered by %s"
 msgstr ""
 
-#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:77
-#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:111
-msgid "View Details"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:101
-msgid "No entries found."
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:11
-msgid "Enter Two-Factor Code"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:12
-msgid "Your account uses a two-factor security code. Enter the code your device is currently showing below."
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:18
-#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:20
-msgid "Security Code"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:22
-#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:23
-#: /var/azuracast/www/templates/frontend/account/login.phtml:69
-#: /var/azuracast/www/templates/frontend/account/login.phtml:72
-#: /var/azuracast/www/templates/frontend/account/forgot.phtml:27
-msgid "Sign in"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/forgot_disabled.phtml:6
-#: /var/azuracast/www/templates/frontend/account/forgot_disabled.phtml:17
-#: /var/azuracast/www/templates/frontend/account/forgot.phtml:6
-#: /var/azuracast/www/templates/frontend/account/forgot.phtml:15
-msgid "Forgot Password"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/forgot_disabled.phtml:22
-msgid "This installation's administrator has not configured this functionality."
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/forgot_disabled.phtml:25
-msgid "Contact an administrator to reset your password following the instructions in our documentation:"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/forgot_disabled.phtml:31
-msgid "Password Reset Instructions"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/login.phtml:25
-msgid "Welcome!"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/login.phtml:28
-#, php-format
-msgid "Welcome to %s!"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/login.phtml:48
-#: /var/azuracast/www/templates/frontend/account/forgot.phtml:23
-msgid "name@example.com"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/login.phtml:57
-msgid "Enter your password"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/login.phtml:65
-msgid "Remember me"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/login.phtml:76
-msgid "Please log in to continue."
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/login.phtml:79
-msgid "Forgot your password?"
-msgstr ""
-
-#: /var/azuracast/www/templates/frontend/account/forgot.phtml:30
-msgid "Send Recovery E-mail"
-msgstr ""
-
-#: /var/azuracast/www/templates/system/log_view.phtml:33
-msgid "Details"
-msgstr ""
-
-#: /var/azuracast/www/templates/partials/sidebar_menu.phtml:49
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/partials/sidebar_menu.phtml:49
 msgid "External"
 msgstr ""
 
-#: /var/azuracast/www/templates/partials/bodyjs.phtml:39
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/partials/bodyjs.phtml:39
 msgid "Are you sure?"
 msgstr ""
 
-#: /var/azuracast/www/templates/mail/forgot.phtml:10
-#, php-format
-msgid "An account recovery link has been requested for your account on \"%s\"."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:60
+msgid "Skip to main content"
 msgstr ""
 
-#: /var/azuracast/www/templates/mail/forgot.phtml:12
-msgid "Click the link below to log in to your account."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:65
+msgid "Toggle Sidebar"
 msgstr ""
 
-#: /var/azuracast/www/templates/stations/profile_disabled.phtml:9
-msgid "Station Broadcasting Disabled"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:88
+msgid "Toggle Menu"
 msgstr ""
 
-#: /var/azuracast/www/templates/stations/profile_disabled.phtml:15
-#, php-format
-msgid "Your station is currently not enabled for broadcasting. You can still manage media, playlists, and other station settings. To re-enable broadcasting, <a href=\"%s\">edit your station profile</a>."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:106
+msgid "System Administration"
 msgstr ""
 
-#: /var/azuracast/www/templates/stations/reports_restricted.phtml:1
-#: /var/azuracast/www/templates/stations/reports_restricted.phtml:5
-msgid "Report Not Available"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:120
+msgid "Switch Theme"
 msgstr ""
 
-#: /var/azuracast/www/templates/stations/reports_restricted.phtml:8
-msgid "This report is not available for this station, because the system administrator has chosen not to collect detailed IP-based listener information."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:136
+msgid "End Session"
 msgstr ""
 
-#: /var/azuracast/www/templates/stations/sidebar.phtml:25
-msgid "Please wait..."
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:144
+msgid "Sign Out"
 msgstr ""
 
-#: /var/azuracast/www/templates/stations/sidebar.phtml:84
-msgid "Station Time"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:154
+msgid "Sidebar"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:36
-#: /var/azuracast/www/templates/admin/debug/index.phtml:43
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:202
+msgid "Like our software?"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/main.phtml:202
+msgid "Donate to support AzuraCast!"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:36
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:43
 msgid "Clear Cache"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:39
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:39
 msgid "Clearing the application cache may log you out of your session."
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:52
-#: /var/azuracast/www/templates/admin/debug/index.phtml:59
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:52
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:59
 msgid "Clear All Message Queues"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:55
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:55
 msgid "This will clear any pending unprocessed messages in all message queues."
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:69
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:69
 msgid "Synchronization Tasks"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:80
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:80
 msgid "Task Name"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:81
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:81
 msgid "Last Run"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:82
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:82
 msgid "Next Run"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:96
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:96
 msgid "Not Run"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:114
-#: /var/azuracast/www/templates/admin/debug/index.phtml:195
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:114
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:195
 msgid "Run Task"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:126
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:126
 msgid "Message Queues"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:134
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:134
 #, php-format
 msgid "%d queued messages"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:152
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:152
 msgid "Station-Specific Debugging"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:170
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:170
 msgid "AutoDJ Queue"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:183
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:183
 msgid "Get Next Song"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:188
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:188
 msgid "Get Now Playing"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:202
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:202
 msgid "Send Liquidsoap Telnet Command"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:209
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:209
 msgid "Command"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/index.phtml:214
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/index.phtml:214
 msgid "Execute Command"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/sync.phtml:7
-#: /var/azuracast/www/templates/admin/debug/sync.phtml:14
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/sync.phtml:7
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/sync.phtml:14
 msgid "Run Synchronization Task"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/sync.phtml:19
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/sync.phtml:19
 msgid "Debug Home"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/debug/sync.phtml:24
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/debug/sync.phtml:24
 msgid "The synchronization task is running in the background. The log below will update automatically."
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/relays/index.phtml:36
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/relays/index.phtml:36
 msgid "Is Public"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/relays/index.phtml:37
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/relays/index.phtml:37
 msgid "First Connected"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/relays/index.phtml:38
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/relays/index.phtml:38
 msgid "Latest Update"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/relays/index.phtml:51
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/relays/index.phtml:51
 msgid "Yes"
 msgstr ""
 
-#: /var/azuracast/www/templates/admin/relays/index.phtml:51
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/admin/relays/index.phtml:51
 msgid "No"
 msgstr ""
 
-#: /var/azuracast/www/templates/main.phtml:60
-msgid "Skip to main content"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:25
+msgid "Welcome!"
 msgstr ""
 
-#: /var/azuracast/www/templates/main.phtml:65
-msgid "Toggle Sidebar"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:28
+#, php-format
+msgid "Welcome to %s!"
 msgstr ""
 
-#: /var/azuracast/www/templates/main.phtml:88
-msgid "Toggle Menu"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:48
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot.phtml:23
+msgid "name@example.com"
 msgstr ""
 
-#: /var/azuracast/www/templates/main.phtml:106
-msgid "System Administration"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:57
+msgid "Enter your password"
 msgstr ""
 
-#: /var/azuracast/www/templates/main.phtml:120
-msgid "Switch Theme"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:65
+msgid "Remember me"
 msgstr ""
 
-#: /var/azuracast/www/templates/main.phtml:136
-msgid "End Session"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:69
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:72
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/two_factor.phtml:22
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/two_factor.phtml:23
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot.phtml:27
+msgid "Sign in"
 msgstr ""
 
-#: /var/azuracast/www/templates/main.phtml:144
-msgid "Sign Out"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:76
+msgid "Please log in to continue."
 msgstr ""
 
-#: /var/azuracast/www/templates/main.phtml:154
-msgid "Sidebar"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/login.phtml:79
+msgid "Forgot your password?"
 msgstr ""
 
-#: /var/azuracast/www/templates/main.phtml:202
-msgid "Like our software?"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot_disabled.phtml:6
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot_disabled.phtml:17
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot.phtml:6
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot.phtml:15
+msgid "Forgot Password"
 msgstr ""
 
-#: /var/azuracast/www/templates/main.phtml:202
-msgid "Donate to support AzuraCast!"
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot_disabled.phtml:22
+msgid "This installation's administrator has not configured this functionality."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot_disabled.phtml:25
+msgid "Contact an administrator to reset your password following the instructions in our documentation:"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot_disabled.phtml:31
+msgid "Password Reset Instructions"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/two_factor.phtml:11
+msgid "Enter Two-Factor Code"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/two_factor.phtml:12
+msgid "Your account uses a two-factor security code. Enter the code your device is currently showing below."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/two_factor.phtml:18
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/two_factor.phtml:20
+msgid "Security Code"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/account/forgot.phtml:30
+msgid "Send Recovery E-mail"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcasts.phtml:101
+msgid "No entries found."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcast-episodes.phtml:77
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/frontend/public/podcast-episodes.phtml:111
+msgid "View Details"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/stations/reports_restricted.phtml:1
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/stations/reports_restricted.phtml:5
+msgid "Report Not Available"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/stations/reports_restricted.phtml:8
+msgid "This report is not available for this station, because the system administrator has chosen not to collect detailed IP-based listener information."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/stations/profile_disabled.phtml:9
+msgid "Station Broadcasting Disabled"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/stations/profile_disabled.phtml:15
+#, php-format
+msgid "Your station is currently not enabled for broadcasting. You can still manage media, playlists, and other station settings. To re-enable broadcasting, <a href=\"%s\">edit your station profile</a>."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/stations/sidebar.phtml:25
+msgid "Please wait..."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/stations/sidebar.phtml:84
+msgid "Station Time"
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/mail/forgot.phtml:10
+#, php-format
+msgid "An account recovery link has been requested for your account on \"%s\"."
+msgstr ""
+
+#: /home/runner/work/YesPanel-Docker-Azuracast/YesPanel-Docker-Azuracast/templates/mail/forgot.phtml:12
+msgid "Click the link below to log in to your account."
 msgstr ""
 
