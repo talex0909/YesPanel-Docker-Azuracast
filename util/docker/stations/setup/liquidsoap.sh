@@ -8,11 +8,10 @@ apt-get install -y --no-install-recommends \
     libsdl2-image-2.0-0 libsdl2-ttf-2.0-0 libsoundtouch1 libxpm4 \
     libasound2 libavcodec58 libavdevice58 libavfilter7 libavformat58 libavutil56 \
     libpulse0 libsamplerate0 libswresample3 libswscale5 libtag1v5 \
-    libsrt1.4-openssl bubblewrap ffmpeg
+    libsrt1.4-openssl bubblewrap ffmpeg liblilv-0-0
 
-# Optional audio plugins
-apt-get install -y --no-install-recommends frei0r-plugins-dev ladspa-sdk multimedia-audio-plugins swh-plugins \
-    tap-plugins lsp-plugins-ladspa
+# Audio Post-processing
+apt-get install -y --no-install-recommends ladspa-sdk
 
 # Per-architecture LS installs
 ARCHITECTURE=amd64
@@ -23,7 +22,7 @@ if [[ "$(uname -m)" = "aarch64" && ${ARM_FULL_BUILD} == "false" ]]; then
 fi
 
 # wget -O /tmp/liquidsoap.deb "https://github.com/savonet/liquidsoap/releases/download/v2.1.4/liquidsoap_2.1.4-ubuntu-jammy-1_${ARCHITECTURE}.deb"
-wget -O /tmp/liquidsoap.deb "https://github.com/savonet/liquidsoap-release-assets/releases/download/rolling-release-v2.1.x/liquidsoap-fb688f6_2.1.5-ubuntu-jammy-1_${ARCHITECTURE}.deb"
+wget -O /tmp/liquidsoap.deb "https://github.com/savonet/liquidsoap-release-assets/releases/download/rolling-release-v2.1.x/liquidsoap-d6313d1_2.1.5-ubuntu-jammy-1_${ARCHITECTURE}.deb"
 
 dpkg -i /tmp/liquidsoap.deb
 apt-get install -y -f --no-install-recommends

@@ -5,9 +5,56 @@ release channel, you can take advantage of these new features and fixes.
 
 ## New Features/Changes
 
+## Code Quality/Technical Changes
+
+## Bug Fixes
+
+---
+
+# AzuraCast 0.18.1 (Apr 21, 2023)
+
+This is an incremental bug-fix release to apply fixes for an issue identified after the release of 0.18.0.
+
+## New Features/Changes
+
+- None
+
+## Code Quality/Technical Changes
+
+- Added improved HTML escaping at multiple points across the application. This is a precautionary measure in the wake of
+  the CVE announced (and fixed in version 0.18.0). There are no known exploits targeting the sections of code remedied,
+  but this helps ensure we are better insulated against such vulnerabilities moving forward.
+
+## Bug Fixes
+
+- Fixed a bug in newer builds of Icecast-KH that caused the service to fail to start up intermittently.
+
+---
+
+# AzuraCast 0.18.0 (Apr 19, 2023)
+
+This release includes numerous important new features and a vulnerability fix that is particularly important for
+multi-tenant installations (i.e. resellers). Upgrading is strongly recommended in these environments.
+
+## New Features/Changes
+
+- **Fix for [CVE-2023-2191](https://nvd.nist.gov/vuln/detail/CVE-2023-21910)**: An issue was identified where a user who
+  already had an AzuraCast account could update their display name to inject malicious JavaScript into the header menu
+  of the site. In a majority of cases, this menu is only visible to the current logged-in user (pages like the "
+  Administer Users" page are unaffected by this vulnerability), but if a higher-privileged administrator uses the "Log
+  In As" feature to masquerade as a user, then the JavaScript injection could exfiltrate certain data. Anonymous members
+  of the public cannot exploit this vulnerability in an AzuraCast installation, so it is primarily of concern for
+  multi-tenant installations (i.e. resellers).
+
 - **Smarter, Faster Searches**: For searches in the Media Manager, as well as the public-facing Requests and On Demand
   pages, we now use a new search tool called Meilisearch that allows for very fast, very accurate search results, as
   well as more complex search queries (and other goodies, like typo correction).
+
+- **Master_me and Post-Processing Tweaks**: We now have built-in support
+  for [master_me](https://github.com/trummerschlunk/master_me), an open-source audio mastering tool that helps add
+  polish and "punch" to your streams. Its functionality is similar to Stereo Tool, but because it's open-source, we
+  include it in every AzuraCast installation. You can now also customize whether our post-processing step includes your
+  live DJ performances.
 
 ## Code Quality/Technical Changes
 
@@ -15,10 +62,30 @@ release channel, you can take advantage of these new features and fixes.
   RedHat Enterprise Linux community of distributions. We have updated our Docker utility script to include a Podman
   support mode. Feel free to report any bugs to us!
 
+- **Install Custom Packages at Startup**: If you want to take advantage of specific Ubuntu packages available
+  via `apt-get install`, you can now specify those files in an `azuracast.env` environment variable
+  named `INSTALL_PACKAGES_ON_STARTUP`. Because users can now install any extra packages they need, we are removing some
+  non-essential packages from our shipped Docker image, namely several LADSPA audio plugins; to reinstall the full set
+  of plugins that were previously available, add this line to your `azuracast.env` file:
+
+  ```
+  INSTALL_PACKAGES_ON_STARTUP="frei0r-plugins-dev multimedia-audio-plugins swh-plugins tap-plugins lsp-plugins-ladspa"
+  ```
+
+- Our Docker Utility Script now directly supports version 2 of Docker Compose (invoked using `docker compose` rather
+  than `docker-compose`).
+
+- Our Dropbox storage location support now includes support for Dropbox's new short-lived access tokens. We include
+  instructions on how to set up and use Dropbox as an AzuraCast storage location on the Storage Locations administration
+  page.
+
+- We've re-tuned the Now Playing updates from how they worked in version 0.17.7 so they will no longer consume very high
+  amounts of CPU and RAM on installations with many (30+) stations.
+
 - We have made more changes to how our Message Queue system works in order to ensure we don't encounter a "runaway
   queue" problem with larger libraries.
 
-- Icecast-KH has been updated to version KH-18.
+- Icecast-KH has been updated to its latest version.
 
 ## Bug Fixes
 
