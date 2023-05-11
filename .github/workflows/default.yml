@@ -120,8 +120,8 @@ jobs:
           config: crowdin.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          CROWDIN_PROJECT_ID: "580019"
+          CROWDIN_PERSONAL_TOKEN: "8ac01e5fffb76359bc776e8207b3e54646aad4ff5289b797e91d3fc6683ab66bb976a7103c775a2b"
 
       - name: Import locales, build static assets.
         run: |
@@ -177,8 +177,8 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: talex0909
+          password: dckr_pat_0EOY00VOK73CtTSaGZcp5Rpule0
 
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v2
@@ -192,8 +192,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            azuracast/azuracast
-            ghcr.io/azuracast/azuracast
+            talex0909/azura-yespanel
+            ghcr.io/talex0909/azura-yespanel
           tags: |
             type=raw,value=latest,enable=${{ endsWith(github.ref, github.event.repository.default_branch) }}
             type=ref,event=branch
@@ -202,7 +202,7 @@ jobs:
       - name: Publish to Docker Hub
         uses: depot/build-push-action@v1
         with:
-          project: qvjwqlcn6p
+          project: zs85tdpn45
           context: .
           push: true
           platforms: linux/amd64,linux/arm64
