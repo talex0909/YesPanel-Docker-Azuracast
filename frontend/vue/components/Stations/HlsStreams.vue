@@ -1,0 +1,133 @@
+<template>
+    <section
+        class="card"
+        role="region"
+        aria-labelledby="hdr_hls_streams"
+    >
+        <b-card-header header-bg-variant="primary-dark">
+            <h2
+                id="hdr_hls_streams"
+                class="card-title"
+            >
+                {{ $gettext('HLS Streams') }}
+            </h2>
+        </b-card-header>
+
+        <info-card>
+            <p class="card-text">
+                {{
+                    $gettext('HTTP Live Streaming (HLS) is a new adaptive-bitrate streaming technology. From this page, you can configure the individual bitrates and formats that are included in the combined HLS stream.')
+                }}
+            </p>
+        </info-card>
+
+        <b-card-body body-class="card-padding-sm">
+            <b-button
+                variant="outline-primary"
+                @click.prevent="doCreate"
+            >
+                <icon icon="add" />
+                {{ $gettext('Add HLS Stream') }}
+            </b-button>
+        </b-card-body>
+
+        <data-table
+            id="station_hls_streams"
+            ref="$dataTable"
+            :fields="fields"
+            paginated
+            :api-url="listUrl"
+        >
+            <template #cell(name)="row">
+                <h5 class="m-0">
+                    {{ row.item.name }}
+                </h5>
+            </template>
+            <template #cell(format)="row">
+                {{ upper(row.item.format) }}
+            </template>
+            <template #cell(bitrate)="row">
+                {{ row.item.bitrate }}kbps
+            </template>
+            <template #cell(actions)="row">
+                <b-button-group size="sm">
+                    <b-button
+                        size="sm"
+                        variant="primary"
+                        @click.prevent="doEdit(row.item.links.self)"
+                    >
+                        {{ $gettext('Edit') }}
+                    </b-button>
+                    <b-button
+                        size="sm"
+                        variant="danger"
+                        @click.prevent="doDelete(row.item.links.self)"
+                    >
+                        {{ $gettext('Delete') }}
+                    </b-button>
+                </b-button-group>
+            </template>
+        </data-table>
+    </section>
+
+    <edit-modal
+        ref="$editModal"
+        :create-url="listUrl"
+        @relist="relist"
+        @needs-restart="mayNeedRestart"
+    />
+</template>
+
+<script setup>
+import DataTable from '~/components/Common/DataTable';
+import EditModal from './HlsStreams/EditModal';
+import Icon from '~/components/Common/Icon';
+import InfoCard from '~/components/Common/InfoCard';
+import {useTranslate} from "~/vendor/gettext";
+import {ref} from "vue";
+import {mayNeedRestartProps, useMayNeedRestart} from "~/functions/useMayNeedRestart";
+import useHasDatatable from "~/functions/useHasDatatable";
+import useHasEditModal from "~/functions/useHasEditModal";
+import useConfirmAndDelete from "~/functions/useConfirmAndDelete";
+
+const props = defineProps({
+    ...mayNeedRestartProps,
+    listUrl: {
+        type: String,
+        required: true
+    }
+});
+
+const {$gettext} = useTranslate();
+
+const fields = [
+    {key: 'name', isRowHeader: true, label: $gettext('Name'), sortable: true},
+    {key: 'format', label: $gettext('Format'), sortable: true},
+    {key: 'bitrate', label: $gettext('Bitrate'), sortable: true},
+    {key: 'actions', label: $gettext('Actions'), sortable: false, class: 'shrink'}
+];
+
+const upper = (data) => {
+    let upper = [];
+    data.split(' ').forEach((word) => {
+        upper.push(word.toUpperCase());
+    });
+    return upper.join(' ');
+};
+
+const $dataTable = ref(); // DataTable
+const {relist} = useHasDatatable($dataTable);
+
+const $editModal = ref(); // EditModal
+const {doCreate, doEdit} = useHasEditModal($editModal);
+
+const {mayNeedRestart, needsRestart} = useMayNeedRestart(props);
+
+const {doDelete} = useConfirmAndDelete(
+    $gettext('Delete HLS Stream?'),
+    () => {
+        needsRestart();
+        relist();
+    }
+);
+</script>

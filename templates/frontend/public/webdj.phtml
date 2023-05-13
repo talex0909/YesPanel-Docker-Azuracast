@@ -1,0 +1,36 @@
+<?php
+/**
+ * @var App\View\GlobalSections $sections
+ * @var App\Entity\Station $station
+ * @var string $wss_url
+ */
+
+$this->layout(
+    'minimal',
+    [
+        'page_class' => 'dj station-' . $station->getShortName(),
+        'hide_footer' => true,
+        'title' => __('Web DJ') . ' - ' . $station->getName(),
+        'manual' => true,
+    ]
+);
+
+$this->fetch('frontend/public/partials/station-custom', ['station' => $station]);
+
+$sections->appendStart('bodyjs');
+?>
+    <script src="<?= $this->assetUrl('dist/lib/webcaster/taglib.js') ?>"></script>
+<?php
+$sections->end();
+
+echo $this->fetch(
+    'partials/vue_body',
+    [
+        'component' => 'Vue_PublicWebDJ',
+        'id' => 'web_dj',
+        'props' => [
+            'stationName' => $station->getName(),
+            'baseUri' => $wss_url,
+        ],
+    ]
+);
